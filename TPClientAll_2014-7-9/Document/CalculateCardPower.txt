@@ -1,0 +1,572 @@
+//--------------------------------------------------------------------------
+void CardNumSort(VeVector<CardData>& kSortByNum)
+{
+	for (VeUInt32 i(0);i < kSortByNum.Size();++i)
+	{
+		if (kSortByNum[i].m_tNumber == CARD_A)
+		{
+			kSortByNum[i].m_tNumber = CardNum_MAX;
+		}
+	}
+	CardData u32temp;
+	for (VeUInt32 i (0);i < kSortByNum.Size() - 1;++i)
+	{
+		for (VeUInt32 j (0);j < kSortByNum.Size() - 1 - i;++j)
+		{
+			if (kSortByNum[j].m_tNumber < kSortByNum[j + 1].m_tNumber)
+			{
+				u32temp = kSortByNum[j];
+				kSortByNum[j] = kSortByNum[j + 1];
+				kSortByNum[j + 1] = u32temp;
+			}
+		}
+	}
+}
+//--------------------------------------------------------------------------
+void SortByStraight(VeVector<CardData>& kSortByStraight)
+{
+	CardData kTemp;
+	VeUInt32 u32Size = kSortByStraight.Size();
+	for (VeUInt32 i (0);i < u32Size - 1;++i)
+	{
+		if (kSortByStraight[i].m_tNumber == kSortByStraight[i + 1].m_tNumber)
+		{
+			kTemp = kSortByStraight[i];
+			for (VeUInt32 j (i);j < kSortByStraight.Size() - 1;++j)
+			{
+				kSortByStraight[j] = kSortByStraight[j + 1];
+			}
+			kSortByStraight[u32Size - 1] = kTemp;
+		}
+	}
+}
+//--------------------------------------------------------------------------
+void SortBySameCard(VeVector<CardData>& kSortBySameCard)
+{
+	CardData kTemp[4];
+	VeUInt32 u32Size = kSortBySameCard.Size();
+	for (VeUInt32 i (0);i < u32Size - 3;++i)
+	{
+		if (kSortBySameCard[i].m_tNumber == kSortBySameCard[i + 1].m_tNumber
+			&& kSortBySameCard[i].m_tNumber == kSortBySameCard[i + 2].m_tNumber
+			&& kSortBySameCard[i].m_tNumber == kSortBySameCard[i + 3].m_tNumber)
+		{
+			if (i == 0)
+			{
+				continue;
+			}
+			else if (i == 1)
+			{
+				kTemp[0] = kSortBySameCard[1];
+				kTemp[1] = kSortBySameCard[2];
+				kTemp[2] = kSortBySameCard[3];
+				kTemp[3] = kSortBySameCard[4];
+				kSortBySameCard[4] = kSortBySameCard[0];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+				kSortBySameCard[2] = kTemp[2];
+				kSortBySameCard[3] = kTemp[3];
+			}
+			else if (i == 2)
+			{
+				kTemp[0] = kSortBySameCard[2];
+				kTemp[1] = kSortBySameCard[3];
+				kTemp[2] = kSortBySameCard[4];
+				kTemp[3] = kSortBySameCard[5];
+				kSortBySameCard[4] = kSortBySameCard[0];
+				kSortBySameCard[5] = kSortBySameCard[1];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+				kSortBySameCard[2] = kTemp[2];
+				kSortBySameCard[3] = kTemp[3];
+			}
+			else if (i == 3)
+			{
+				kTemp[0] = kSortBySameCard[3];
+				kTemp[1] = kSortBySameCard[4];
+				kTemp[2] = kSortBySameCard[5];
+				kTemp[3] = kSortBySameCard[6];
+				kSortBySameCard[4] = kSortBySameCard[0];
+				kSortBySameCard[5] = kSortBySameCard[1];
+				kSortBySameCard[6] = kSortBySameCard[2];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+				kSortBySameCard[2] = kTemp[2];
+				kSortBySameCard[3] = kTemp[3];
+			}
+			else
+			{
+				continue;
+			}
+		}
+		else
+		{
+			continue;
+		}
+	}
+	for (VeUInt32 i (0);i < u32Size - 2;++i)
+	{
+		if (kSortBySameCard[i].m_tNumber == kSortBySameCard[i + 1].m_tNumber
+			&& kSortBySameCard[i].m_tNumber == kSortBySameCard[i + 2].m_tNumber)
+		{
+			if (i == 0)
+			{
+				continue;
+			}
+			else if (i == 1)
+			{
+				kTemp[0] = kSortBySameCard[1];
+				kTemp[1] = kSortBySameCard[2];
+				kTemp[2] = kSortBySameCard[3];
+				kSortBySameCard[3] = kSortBySameCard[0];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+				kSortBySameCard[2] = kTemp[2];
+			}
+			else if (i == 2)
+			{
+				kTemp[0] = kSortBySameCard[2];
+				kTemp[1] = kSortBySameCard[3];
+				kTemp[2] = kSortBySameCard[4];
+				kSortBySameCard[3] = kSortBySameCard[0];
+				kSortBySameCard[4] = kSortBySameCard[1];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+				kSortBySameCard[2] = kTemp[2];
+			}
+			else if (i == 3)
+			{
+				kTemp[0] = kSortBySameCard[3];
+				kTemp[1] = kSortBySameCard[4];
+				kTemp[2] = kSortBySameCard[5];
+				kSortBySameCard[3] = kSortBySameCard[0];
+				kSortBySameCard[4] = kSortBySameCard[1];
+				kSortBySameCard[5] = kSortBySameCard[2];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+				kSortBySameCard[2] = kTemp[2];
+
+			}
+			else if (i == 4)
+			{
+				kTemp[0] = kSortBySameCard[4];
+				kTemp[1] = kSortBySameCard[5];
+				kTemp[2] = kSortBySameCard[6];
+				kSortBySameCard[3] = kSortBySameCard[0];
+				kSortBySameCard[4] = kSortBySameCard[1];
+				kSortBySameCard[5] = kSortBySameCard[2];
+				kSortBySameCard[6] = kSortBySameCard[3];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+				kSortBySameCard[2] = kTemp[2];
+
+			}
+			else
+			{
+				continue;
+			}
+		}
+		else
+		{
+			continue;
+		}
+	}
+	for (VeUInt32 i (0);i < u32Size - 1;++i)
+	{
+		if (kSortBySameCard[i].m_tNumber == kSortBySameCard[i + 1].m_tNumber)
+		{
+			if (i == 0)
+			{
+				continue;
+			}
+			else if (i == 1)
+			{
+				kTemp[0] = kSortBySameCard[1];
+				kTemp[1] = kSortBySameCard[2];
+				kSortBySameCard[2] = kSortBySameCard[0];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+			}
+			else if (i == 2)
+			{
+				kTemp[0] = kSortBySameCard[2];
+				kTemp[1] = kSortBySameCard[3];
+				kSortBySameCard[2] = kSortBySameCard[0];
+				kSortBySameCard[3] = kSortBySameCard[1];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+			}
+			else if (i == 3)
+			{
+				kTemp[0] = kSortBySameCard[3];
+				kTemp[1] = kSortBySameCard[4];
+				kSortBySameCard[4] = kSortBySameCard[2];
+				kSortBySameCard[3] = kSortBySameCard[1];
+				kSortBySameCard[2] = kSortBySameCard[0];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+			}
+			else if (i == 4)
+			{
+				kTemp[0] = kSortBySameCard[4];
+				kTemp[1] = kSortBySameCard[5];
+				kSortBySameCard[5] = kSortBySameCard[3];
+				kSortBySameCard[4] = kSortBySameCard[2];
+				kSortBySameCard[3] = kSortBySameCard[1];
+				kSortBySameCard[2] = kSortBySameCard[0];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+			}
+			else if (i == 5)
+			{
+				kTemp[0] = kSortBySameCard[5];
+				kTemp[1] = kSortBySameCard[6];
+				kSortBySameCard[6] = kSortBySameCard[4];
+				kSortBySameCard[5] = kSortBySameCard[3];
+				kSortBySameCard[4] = kSortBySameCard[2];
+				kSortBySameCard[3] = kSortBySameCard[1];
+				kSortBySameCard[2] = kSortBySameCard[0];
+				kSortBySameCard[0] = kTemp[0];
+				kSortBySameCard[1] = kTemp[1];
+			}
+			else
+			{
+				continue;
+			}
+		}
+		else
+		{
+			continue;
+		}
+	}
+}
+//--------------------------------------------------------------------------
+void SortByFlush(VeVector<CardData>& kSortByFlush)
+{
+	CardData kTemp;
+	VeUInt32 u32Size = kSortByFlush.Size();
+	if (u32Size == 6)
+	{
+		if (kSortByFlush[0].m_tSuit != kSortByFlush[1].m_tSuit
+		&& kSortByFlush[0].m_tSuit != kSortByFlush[2].m_tSuit)
+		{
+			kTemp = kSortByFlush[0];
+			for (VeUInt32 i(0); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[1].m_tSuit != kSortByFlush[2].m_tSuit
+			&& kSortByFlush[1].m_tSuit != kSortByFlush[3].m_tSuit)
+		{
+			kTemp = kSortByFlush[1];
+			for (VeUInt32 i(1); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[2].m_tSuit != kSortByFlush[3].m_tSuit
+			&& kSortByFlush[2].m_tSuit != kSortByFlush[4].m_tSuit)
+		{
+			kTemp = kSortByFlush[2];
+			for (VeUInt32 i(2); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[3].m_tSuit != kSortByFlush[4].m_tSuit
+			&& kSortByFlush[3].m_tSuit != kSortByFlush[5].m_tSuit)
+		{
+			kTemp = kSortByFlush[3];
+			for (VeUInt32 i(3); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[4].m_tSuit != kSortByFlush[2].m_tSuit
+			&& kSortByFlush[4].m_tSuit != kSortByFlush[3].m_tSuit)
+		{
+			kTemp = kSortByFlush[4];
+			for (VeUInt32 i(4); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[5].m_tSuit != kSortByFlush[1].m_tSuit
+			&& kSortByFlush[5].m_tSuit != kSortByFlush[2].m_tSuit)
+		{
+			kTemp = kSortByFlush[5];
+			for (VeUInt32 i(5); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else
+		{
+			return;
+		}
+	}
+	else if (u32Size == 7)
+	{
+		if (kSortByFlush[0].m_tSuit != kSortByFlush[1].m_tSuit
+			&& kSortByFlush[0].m_tSuit != kSortByFlush[2].m_tSuit)
+		{
+			kTemp = kSortByFlush[0];
+			for (VeUInt32 i(0); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[1].m_tSuit != kSortByFlush[2].m_tSuit
+			&& kSortByFlush[1].m_tSuit != kSortByFlush[3].m_tSuit)
+		{
+			kTemp = kSortByFlush[1];
+			for (VeUInt32 i(1); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[2].m_tSuit != kSortByFlush[3].m_tSuit
+			&& kSortByFlush[2].m_tSuit != kSortByFlush[4].m_tSuit)
+		{
+			kTemp = kSortByFlush[2];
+			for (VeUInt32 i(2); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[3].m_tSuit != kSortByFlush[4].m_tSuit
+			&& kSortByFlush[3].m_tSuit != kSortByFlush[5].m_tSuit)
+		{
+			kTemp = kSortByFlush[3];
+			for (VeUInt32 i(3); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[4].m_tSuit != kSortByFlush[5].m_tSuit
+			&& kSortByFlush[4].m_tSuit != kSortByFlush[6].m_tSuit)
+		{
+			kTemp = kSortByFlush[4];
+			for (VeUInt32 i(4); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if (kSortByFlush[5].m_tSuit != kSortByFlush[1].m_tSuit
+			&& kSortByFlush[5].m_tSuit != kSortByFlush[2].m_tSuit)
+		{
+			kTemp = kSortByFlush[5];
+			for (VeUInt32 i(5); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else if(kSortByFlush[6].m_tSuit != kSortByFlush[3].m_tSuit
+			&& kSortByFlush[6].m_tSuit != kSortByFlush[4].m_tSuit)
+		{
+			kTemp = kSortByFlush[6];
+			for (VeUInt32 i(6); i < u32Size - 1;++i)
+			{
+				kSortByFlush[i] = kSortByFlush[i + 1];
+			}
+			kSortByFlush[u32Size - 1] = kTemp;
+		}
+		else
+		{
+			return;
+		}
+	}
+	else
+	{
+		return;
+	}
+}
+//--------------------------------------------------------------------------
+VePair<Categories, VeUInt32> CalculateCardPower(
+	const VeVector<CardData>& kHand, const VeVector<CardData>& kPublic)
+{
+	VE_ASSERT(kHand.Size() == 2);
+	VE_ASSERT(kPublic.Size() == 0 || kPublic.Size() >= 3 || kPublic.Size() <= 5);
+	VE_ASSERT(kHand[0].m_tState == CARD_FRONT);
+	VE_ASSERT(kHand[1].m_tState == CARD_FRONT);
+
+	VeVector<CardData> kNewCardData;
+	VeUInt32 u32NumPower = 0;
+	if (kPublic.Size() == 0)
+	{
+		kNewCardData.Resize(2);
+		if (kHand[0].m_tNumber > kHand[1].m_tNumber)
+		{
+			kNewCardData[0] = kHand[0];
+			kNewCardData[1] = kHand[1];
+		}
+		else
+		{
+			kNewCardData[0] = kHand[1];
+			kNewCardData[1] = kHand[0];
+		}
+		u32NumPower += kNewCardData[0].m_tNumber << 16;
+		u32NumPower += kNewCardData[1].m_tNumber << 12;
+		if (kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber)
+		{
+			u32NumPower += (Categories_MAX - CATE_ONE_PAIR) << 20;
+			return VePair<Categories, VeUInt32>(CATE_ONE_PAIR,u32NumPower);
+		}
+		else
+		{
+			u32NumPower += (Categories_MAX - CATE_HIGH_CARD) << 20;
+			return VePair<Categories, VeUInt32>(CATE_HIGH_CARD,u32NumPower);
+		}
+	}
+	else
+	{
+		if (kPublic.Size() == 3)
+		{
+			kNewCardData.Resize(kHand.Size() + kPublic.Size());
+			kNewCardData[0] = kHand[0];
+			kNewCardData[1] = kHand[1];
+			kNewCardData[2] = kPublic[0];
+			kNewCardData[3] = kPublic[1];
+			kNewCardData[4] = kPublic[2];
+		}
+		else if (kPublic.Size() == 4)
+		{
+			kNewCardData.Resize(kHand.Size() + kPublic.Size());
+			kNewCardData[0] = kHand[0];
+			kNewCardData[1] = kHand[1];
+			kNewCardData[2] = kPublic[0];
+			kNewCardData[3] = kPublic[1];
+			kNewCardData[4] = kPublic[2];
+			kNewCardData[5] = kPublic[3];
+		}
+		else
+		{
+			kNewCardData.Resize(kHand.Size() + kPublic.Size());
+			kNewCardData[0] = kHand[0];
+			kNewCardData[1] = kHand[1];
+			kNewCardData[2] = kPublic[0];
+			kNewCardData[3] = kPublic[1];
+			kNewCardData[4] = kPublic[2];
+			kNewCardData[5] = kPublic[3];
+			kNewCardData[6] = kPublic[4];
+		}
+		CardNumSort(kNewCardData);
+		SortByFlush(kNewCardData);
+		if (!(kNewCardData[0].m_tSuit == kNewCardData[1].m_tSuit
+			&& kNewCardData[1].m_tSuit == kNewCardData[2].m_tSuit
+			&& kNewCardData[2].m_tSuit == kNewCardData[3].m_tSuit
+			&& kNewCardData[3].m_tSuit == kNewCardData[4].m_tSuit))
+		{
+			SortByStraight(kNewCardData);
+			if (!(kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber + 1
+				&& kNewCardData[1].m_tNumber == kNewCardData[2].m_tNumber + 1
+				&& kNewCardData[2].m_tNumber == kNewCardData[3].m_tNumber + 1
+				&& kNewCardData[3].m_tNumber == kNewCardData[4].m_tNumber + 1))
+			{
+				SortBySameCard(kNewCardData);
+				if (kNewCardData[0].m_tNumber != kNewCardData[1].m_tNumber)
+				{
+					CardNumSort(kNewCardData);
+				}
+			}
+		}
+		u32NumPower += kNewCardData[0].m_tNumber << 16;
+		u32NumPower += kNewCardData[1].m_tNumber << 12;
+		u32NumPower += kNewCardData[2].m_tNumber << 8;
+		u32NumPower += kNewCardData[3].m_tNumber << 4;
+		u32NumPower += kNewCardData[4].m_tNumber;
+		if (kNewCardData[0].m_tSuit == kNewCardData[1].m_tSuit
+			&& kNewCardData[1].m_tSuit == kNewCardData[2].m_tSuit
+			&& kNewCardData[2].m_tSuit == kNewCardData[3].m_tSuit
+			&& kNewCardData[3].m_tSuit == kNewCardData[4].m_tSuit)
+		{
+			if (kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber + 1
+				&& kNewCardData[1].m_tNumber == kNewCardData[2].m_tNumber + 1
+				&& kNewCardData[2].m_tNumber == kNewCardData[3].m_tNumber + 1
+				&& kNewCardData[3].m_tNumber == kNewCardData[4].m_tNumber + 1)
+			{
+				if (kNewCardData[4].m_tNumber == CARD_10)
+				{
+					u32NumPower += (Categories_MAX - CATE_ROYAL_FLUSH) << 20;
+					return VePair<Categories, VeUInt32>(CATE_ROYAL_FLUSH,u32NumPower);
+				}
+				else
+				{
+					u32NumPower += (Categories_MAX - CATE_STRAIGHT_FLUSH) << 20;
+					return VePair<Categories, VeUInt32>(CATE_STRAIGHT_FLUSH,u32NumPower);
+				}
+			}
+			else
+			{
+				u32NumPower += (Categories_MAX - CATE_FLUSH) << 20;
+				return VePair<Categories, VeUInt32>(CATE_FLUSH,u32NumPower);
+			}
+		}
+		else if (kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber
+			&& kNewCardData[1].m_tNumber == kNewCardData[2].m_tNumber
+			&& kNewCardData[2].m_tNumber == kNewCardData[3].m_tNumber)
+		{
+			u32NumPower += (Categories_MAX - CATE_FOUR_KIND) << 20;
+			return VePair<Categories, VeUInt32>(CATE_FOUR_KIND,u32NumPower);
+		}
+		else if (kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber
+			&& kNewCardData[1].m_tNumber == kNewCardData[2].m_tNumber
+			&& kNewCardData[3].m_tNumber == kNewCardData[4].m_tNumber)
+		{
+			u32NumPower += (Categories_MAX - CATE_FULL_HOUSE) << 20;
+			return VePair<Categories, VeUInt32>(CATE_FULL_HOUSE,u32NumPower);
+		}
+		else if (kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber + 1
+			&& kNewCardData[1].m_tNumber == kNewCardData[2].m_tNumber + 1
+			&& kNewCardData[2].m_tNumber == kNewCardData[3].m_tNumber + 1
+			&& kNewCardData[3].m_tNumber == kNewCardData[4].m_tNumber + 1)
+		{
+			u32NumPower += (Categories_MAX - CATE_STRAIGHT) << 20;
+			return VePair<Categories, VeUInt32>(CATE_STRAIGHT,u32NumPower);
+		}
+		else if (kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber
+			&& kNewCardData[1].m_tNumber == kNewCardData[2].m_tNumber)
+		{
+			u32NumPower += (Categories_MAX - CATE_THREE_KIND) << 20;
+			return VePair<Categories, VeUInt32>(CATE_THREE_KIND,u32NumPower);
+		}
+		else if (kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber
+			&& kNewCardData[2].m_tNumber == kNewCardData[3].m_tNumber)
+		{
+			u32NumPower += (Categories_MAX - CATE_TWO_PAIR) << 20;
+			return VePair<Categories, VeUInt32>(CATE_TWO_PAIR,u32NumPower);
+		}
+		else if (kNewCardData[0].m_tNumber == kNewCardData[1].m_tNumber)
+		{
+			u32NumPower += (Categories_MAX - CATE_ONE_PAIR) << 20;
+			return VePair<Categories, VeUInt32>(CATE_ONE_PAIR,u32NumPower);
+		}
+		else
+		{
+			u32NumPower += (Categories_MAX - CATE_HIGH_CARD) << 20;
+			return VePair<Categories, VeUInt32>(CATE_HIGH_CARD,u32NumPower);
+		}
+	}	
+}
+//--------------------------------------------------------------------------
+VeFloat32 CalculateWinRate(const VeVector<CardData>& kHand,
+	const VeVector<CardData>& kPublic, VeUInt32 u32Players)
+{
+	VE_ASSERT(kHand.Size() == 2);
+	VE_ASSERT(kPublic.Size() == 0 || kPublic.Size() >= 3 || kPublic.Size() <= 5);
+	VE_ASSERT(u32Players <= 9);
+	return 0;
+}

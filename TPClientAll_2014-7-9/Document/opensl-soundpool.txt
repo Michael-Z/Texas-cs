@@ -1,0 +1,3 @@
+https://code.google.com/p/opensl-soundpool/
+
+using-jni-from-a-native-activity

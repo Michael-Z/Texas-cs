@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string>
+	<zh_CN>
+		<Welcome value="欢迎您登陆维娜斯德州扑克"/>
+		
+		<PurchaseSucceed value="支付成功"/>
+		<PurchaseVerifying value="等待验证支付"/>
+		<PurchaseSucceedContent value="请点击确定继续游戏。"/>
+		<PurchaseFailed value="购买失败"/>
+		<PurchaseFailedContent value="请点击确定继续游戏。"/>
+		<Purchase0 value="感谢您使用"/>
+		<Purchase1 value="购买了"/>
+		<Purchase2 value="筹码"/>
+		<MM_Purchase value="MM支付"/>
+		<YOUMI_Purchase value="有米积分墙"/>
+		<APPSTORE_Purchase value="苹果支付"/>
+		
+		<EventInfoTarget0 value="目标：更改信息并绑定手机"/>
+		<EventInfoAward0 value="奖励：2000筹码"/>
+		<EventInfoTarget1 value="目标：购买筹码"/>
+		<EventInfoAward1 value="奖励："/>
+		<EventInfoTarget2 value="目标：购买带有VIP的套餐"/>
+		<EventInfoAward2 value="奖励：成为VIP，升级每日任务"/>
+		<EventInfoTarget3 value="目标：赠送可兑换礼物价值"/>
+		<EventInfoAward3 value="奖励：一块金砖"/>
+		<EventInfoTarget4 value="目标：每日登陆"/>
+		<EventInfoAward4_0 value="奖励：2000筹码"/>
+		<EventInfoAward4_1 value="奖励：4000筹码"/>
+		<EventInfoTarget5 value="目标：玩10局德州扑克"/>
+		<EventInfoAward5_0 value="奖励：2000筹码"/>
+		<EventInfoAward5_1 value="奖励：4000筹码"/>
+		<EventInfoTarget6 value="目标：玩30把777"/>
+		<EventInfoAward6_0 value="奖励：2000筹码"/>
+		<EventInfoAward6_1 value="奖励：4000筹码"/>
+		<EventInfoTarget7 value="目标：下3注大乐透"/>
+		<EventInfoAward7_0 value="奖励：2000筹码"/>
+		<EventInfoAward7_1 value="奖励：4000筹码"/>
+		<EventInfoTarget8 value="目标：玩10局百家乐"/>
+		<EventInfoAward8_0 value="奖励：2000筹码"/>
+		<EventInfoAward8_1 value="奖励：4000筹码"/>
+		
+		<EventFinish value="任务完成"/>
+		<EventAwardChips value="奖励筹码："/>
+		<EventAwardCardNew value="恭喜您获得了一张"/>
+		<EventAwardCardUp value="您的银行卡已升级为"/>
+		<EventAwardVip value="恭喜您成为了VIP"/>
+		<EventAwardGold value="恭喜您获得一块金砖"/>
+		
+		<W value="万"/>
+		<Y value="亿"/>
+		<WY value="万亿"/>
+		<AllOnline value="在线:"/>
+		<ExitTitle value="退出"/>
+		<ExitContent value="您确定要退出吗？"/>
+		<Confirm value="确定"/>
+		<Cancel value="取消"/>
+		<Close value="关闭"/>
+		<Loading value="正在连接服务器，请保持良好的网络连接。"/>
+		<ServerNoticeTitle value="服务器公告"/>
+		<ReconnectTitle value="重连接服务器失败"/>
+		<ReconnectContent value="请点击确定再次尝试。"/>
+		<SaveSucceed value="保存成功！"/>
+		<SaveFailed value="保存失败！"/>
+		<ReLoginTitle value="重登陆失败"/>
+		<ReLoginContent value="请点击确定再次尝试。"/>
+		<ConnectTitle value="连接服务器失败"/>
+		<ConnectTitleFull value="服务器已满"/>
+		<ConnectTitleLost value="与服务器断开连接"/>
+		<ConnectContent value="请点击确定重新连接。"/>
+
+		<LoginTitle value="登陆失败"/>
+		<LoginContent value="请点击确定重新登陆。"/>
+		<LoginExistTitle value="重复登陆"/>
+		<LoginExistContent value="请等待片刻后点击确定再次登陆。"/>
+		<LoginWrongTitle value="错误的版本号"/>
+		<LoginWrongContent value="请更新到最新版本进行游戏。"/>
+		
+		<ReLoginSucc value="进入大厅"/>
+		<ServerFull value="服务器已满，请稍后登录"/>
+		
+		<Nickname value="昵称:"/>
+		<Title value="头衔:"/>
+		<Assets value="个人资产:"/>
+		<WinGames value="已赢牌局:"/>
+		<MaxWinBet value="最大赢注:"/>
+		<WinRate value="赢牌概率:"/>
+		<BestType value="最佳牌型:"/>
+		<Sex value="姓别:"/>
+		<Tell value="绑定手机:"/>
+		<HeadChoose value="选择头像:"/>
+		
+		<EditInfoTitle value="编辑玩家信息"/>
+		<InputName value="请输入您的昵称"/>
+		<InputTell value="请输入您的手机号码"/>
+		<EditInfoConfirmTitle value="放弃编辑"/>
+		<EditInfoConfirmContent value="您已改变了玩家信息，确定要放弃本次编辑吗？"/>
+		<EditInfoFaild value="提交信息失败"/>
+		<EditInfoSucceed value="提交信息成功."/>
+		<ItmeExChangeFaild value="兑换道具失败"/>
+		<ItmeExChangeSucceed value="兑换道具成功"/>
+		<PosCardFailed value="刷卡失败:今日已领取"/>
+		<PosCardSucceed value="刷卡成功!获得筹码:"/>
+		<EnterGameFailed value="进入房间失败"/>
+		<EnterGameFailedFull value="进入房间失败:房间已满"/>
+		
+		<MM_BuyPackage0 value="2元人民币购买1万筹码"/>
+		<MM_BuyPackage1 value="5元人民币购买3万筹码"/>
+		<MM_BuyPackage2 value="10元人民币购买7万筹码"/>
+		<MM_BuyPackage3 value="20元人民币购买16万筹码"/>
+		<MM_BuyPackage4 value="30元人民币购买27万筹码"/>
+		
+		<IOS_BuyPackage0 value="本套餐包含40000游戏筹码"/>
+		<IOS_BuyPackage1 value="本套餐包含90000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage2 value="本套餐包含180000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage3 value="本套餐包含350000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage4 value="本套餐包含900000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage5 value="本套餐包含2000000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage6 value="本套餐包含8000000游戏筹码以及VIP头衔"/>
+
+		<TestName value="Showtime"/>
+
+		<TestBankDesc0 value="无红利卡"/>
+		<TestBankDesc1 value="初级红利卡"/>
+		<TestBankDesc2 value="中级红利卡"/>
+		<TestBankDesc3 value="顶级红利卡"/>
+		<TestBankDesc4 value="大师红利卡"/>
+		<TestBankDesc5 value="终身红利卡"/>
+
+		<TitleType0 value="初阵临敌"/>
+		<TitleType1 value="第一桶金"/>
+		<TitleType2 value="展露头角"/>
+		<TitleType3 value="业余玩家"/>
+		<TitleType4 value="牌技精湛"/>
+		<TitleType5 value="专业牌手"/>
+		<TitleType6 value="职业牌手"/>
+		<TitleType7 value="大师牌手"/>
+		<TitleType8 value="终身大师"/>
+		<TitleType9 value="特级大师"/>
+		
+		<ChipsCarryMin value="最低"/>
+		<ChipsCarryMax value="最高"/>
+		
+		<GameBackConfirmTitle value="返回大厅"/>
+		<GameBackConfirmContent value="您正在进行游戏，确定要返回大厅吗？"/>
+		
+		<ChangeSeatConfirmTitle value="更换坐位"/>
+		<ChangeSeatConfirmContent value="您正在进行游戏，确定要弃牌并更换坐位吗？"/>
+		
+		<ChangeRoomConfirmTitle value="更换房间"/>
+		<ChangeRoomConfirmContent value="您正在进行游戏，确定要更换房间吗？"/>
+
+		<NoticeTitle value="玩家:"/>
+		<ChipsTitle value="筹码。"/>
+		<DefaultNotice value="健康游戏公告:适度游戏益脑,沉迷游戏伤身,合理安排时间,享受健康生活"/>
+		<NoticeType1 value="以皇家同花顺牌型赢得了"/>
+		<NoticeType2 value="以同花顺牌型赢得了"/>
+		<NoticeType3 value="以四条牌型赢得了"/>
+		<NoticeType4 value="购买了"/>
+		<NoticeType5 value="加入了尊贵的VIP会员。"/>
+		<NoticeType6 value="在777游戏中幸运地中了JP大奖，获得了"/>
+		<NoticeType7 value="在777游戏中幸运地拉中了777，获得了"/>
+		<NoticeType8 value="在大乐透游戏中幸运地买中了6个数字，获得了"/>
+		<NoticeType9 value="在大乐透游戏中幸运地买中了7个数字，获得了"/>
+		<NoticeType10 value="在大乐透游戏中幸运地买中了8个数字，获得了"/>
+		<NoticeType11 value="在大乐透游戏中幸运地买中了9个数字，获得了"/>
+		<NoticeType12 value="在大乐透游戏中幸运地买中了所有数字！获得了"/>
+		<NoticeType13 value="在百家乐游戏中幸运地赢得了"/>
+
+		<SlotChipsNotEnough value = "当前筹码不足，点击右上方可快速购买筹码。"/>
+
+		<Gift value="小礼物"/>
+		<Buy value="购买"/>
+		<BuyAll value="给所有人"/>
+		<Present value="赠送"/>
+		<SB value="小盲注"/>
+		<BB value="大盲注"/>
+		
+		<drink_0 value="Mojito"/>
+		<drink_1 value="XO"/>
+		<drink_2 value="草莓冰"/>
+		<drink_3 value="赤霞珠"/>
+		<drink_4 value="伏特加"/>
+		<drink_5 value="黑皮諾"/>
+		<drink_6 value="蓝色冰"/>
+		<drink_7 value="马提尼"/>
+		<drink_8 value="玛格丽塔"/>
+		<drink_9 value="啤酒"/>
+		<drink_10 value="巧克力"/>
+		<drink_11 value="三色球"/>
+		<drink_12 value="甜筒"/>
+		<drink_13 value="霞多丽"/>
+		<drink_14 value="相思酒"/>
+		<drink_15 value="香槟"/>
+		<drink_16 value="DE CANO雪茄"/>
+		<drink_17 value="牛仔帽"/>
+		<drink_18 value="雪茄"/>
+		<drink_19 value="烟斗"/>
+		<object_0 value="克拉砖石"/>
+		<object_1 value="古董"/>
+		<object_2 value="汽车"/>
+		<object_3 value="飞机"/>
+		
+		<Categories_0 value="皇家同花顺"/>
+		<Categories_1 value="同花顺"/>
+		<Categories_2 value="四条"/>
+		<Categories_3 value="葫芦"/>
+		<Categories_4 value="同花"/>
+		<Categories_5 value="顺子"/>
+		<Categories_6 value="三条"/>
+		<Categories_7 value="两对"/>
+		<Categories_8 value="一对"/>
+		<Categories_9 value="高牌"/>
+		
+		<slot_roll_back value="机器正在转动，请稍候返回"/>
+		<CardMaxWinBet value="赢注:"/>
+		<CardWinRate value="胜率:"/>
+		<CardWinRate value="胜率:"/>
+		<HandStrengthLocked value="VIP开启牌力提示功能"/>
+		<HandStrengthName value="牌力"/>
+		<HandStrengthWin value="获胜"/>
+
+		<CarryChipsSucc value="欢迎入坐,请等待开始"/>
+		<CarryChipsFaild value="提取筹码失败，请确认余额"/>
+		<BuyGiftSucc value="购买礼物成功"/>
+		<BuyGiftFaild value="购买礼物失败"/>
+		
+		<RecoverGameTips value="正在恢复上次的游戏"/>
+		<DisconnectGameServer value="您与游戏服务器断开连接"/>
+		<ChangeSitFaild value="该座位已有玩家，换座失败"/>
+		<WaitNextGame value="请等待下一局"/>
+
+		<BuyGiftNotice value="购买了礼物送给"/>
+		<BuyGiftNoticeForAll value="购买了礼物送给所有人"/>
+
+		<EndGame value="本局游戏结束"/>
+		<PlusSymbol value="×"/>
+		
+		<BaccPlayer value="玩家:"/>
+		<BaccTie value="平局:"/>
+		<BaccBanker value="庄家:"/>
+		<Bacc_roll_back value="您正在进行比牌，请稍候返回"/>
+		<BaccBetFailed value="投注失败!筹码不足或已达上限"/>
+
+		<KenoResultSucc value="购买大乐透成功！等待开奖"/>
+		<KenoResultFailed value="购买大乐透失败"/>
+		<KenoFailed value="购买大乐透失败，筹码不足"/>
+		<KenoResult value="本期大乐透中奖号码为: "/>
+		<RunKenoStart value="准备开奖"/>
+		<RunKenoBefore value="正在开出第"/>
+		<RunKenoAfter value="个号码"/>
+		
+		<KenoWin0 value="恭喜您在"/>
+		<KenoWin1 value="期大乐透中了"/>
+		<KenoWin2 value="个号码"/>
+		<KenoWin3 value="压注"/>
+		<KenoWin4 value="，获得奖金"/>
+		
+		<GameProcess1 value="弃牌"/>
+		<GameProcess2 value="加注"/>
+		<GameProcess3 value="跟注"/>
+		<GameProcess4 value="过牌"/>
+		<GameProcess5 value="All in"/>
+		<GameProcess6 value="大盲注"/>
+		<GameProcess7 value="小盲注"/>
+		
+    <CourseText1 value="1. 每个玩家分两张牌作为[ 底牌]"/>
+    <CourseText2 value="2. 经过四轮下注陆续发出五张[公共牌]"/>
+    <CourseText3 value="3. [ 底牌 ]+[ 公共牌 ]， 七选五，组合成 
+最大牌型跟剩余玩家斗牌，赢取奖池筹码"/>
+    <CourseText4 value="4. 游戏牌型提示 ，及时显示玩家的最高牌型"/>
+    <CourseText5 value="5. 同桌玩家信息提示 ，显示对方玩家的相关
+   信息，点击         标志 可赠送对手礼物或资产。"/>
+    <CourseText6 value="6. 游戏菜单按钮功能包括：      
+                        [游戏换桌] 与 [补充筹码] 以及 [返回大厅]。"/>
+    
+  </zh_CN>
+	<zh_TW>
+		<Welcome value="歡迎您登陸維娜斯德州撲克"/>
+		
+		<PurchaseSucceed value="支付成功"/>
+		<PurchaseVerifying value="等待驗證支付"/>
+		<PurchaseSucceedContent value="請點擊確定繼續遊戲"/>
+		<PurchaseFailed value="支付失敗"/>
+		<PurchaseFailedContent value="請點擊確定繼續遊戲"/>
+		<Purchase0 value="感謝您使用"/>
+		<Purchase1 value="購買了"/>
+		<Purchase2 value="籌碼"/>
+		<MM_Purchase value="MM支付"/>
+		<YOUMI_Purchase value="有米积分墙"/>
+		<APPSTORE_Purchase value="蘋果支付"/>
+		
+		<EventInfoTarget0 value="目標：更改信息並綁定手機"/>
+		<EventInfoAward0 value="獎勵：2000籌碼"/>
+		<EventInfoTarget1 value="目標：購買籌碼"/>
+		<EventInfoAward1 value="獎勵："/>
+		<EventInfoTarget2 value="目標：購買帶有VIP的套餐"/>
+		<EventInfoAward2 value="獎勵：成爲VIP，升級每日任務"/>
+		<EventInfoTarget3 value="目標：贈送可兌換禮物價值"/>
+		<EventInfoAward3 value="獎勵：壹塊金磚"/>
+		<EventInfoTarget4 value="目標：每日登陸"/>
+		<EventInfoAward4_0 value="獎勵：2000籌碼"/>
+		<EventInfoAward4_1 value="獎勵：4000籌碼"/>
+		<EventInfoTarget5 value="目標：玩10局德州撲克"/>
+		<EventInfoAward5_0 value="獎勵：2000籌碼"/>
+		<EventInfoAward5_1 value="獎勵：4000籌碼"/>
+		<EventInfoTarget6 value="目標：玩30把777"/>
+		<EventInfoAward6_0 value="獎勵：2000籌碼"/>
+		<EventInfoAward6_1 value="獎勵：4000籌碼"/>
+		<EventInfoTarget7 value="目標：下3注大樂透"/>
+		<EventInfoAward7_0 value="獎勵：2000籌碼"/>
+		<EventInfoAward7_1 value="獎勵：4000籌碼"/>
+		<EventInfoTarget8 value="目標：玩10局百家樂"/>
+		<EventInfoAward8_0 value="獎勵：2000籌碼"/>
+		<EventInfoAward8_1 value="獎勵：4000籌碼"/>
+		
+		<EventFinish value="任務完成"/>
+		<EventAwardChips value="獎勵籌碼："/>
+		<EventAwardCardNew value="恭喜您獲得了壹張"/>
+		<EventAwardCardUp value="您的銀行卡已升級爲"/>
+		<EventAwardVip value="恭喜您成爲了VIP"/>
+		<EventAwardGold value="恭喜您獲得壹塊金磚"/>
+		
+		<W value="萬"/>
+		<Y value="億"/>
+		<WY value="萬億"/>
+		<AllOnline value="在線:"/>
+		<ExitTitle value="退出"/>
+		<ExitContent value="您確定要退出嗎？"/>
+		<Confirm value="確定"/>
+		<Cancel value="取消"/>
+		<Close value="關閉"/>
+		<Loading value="正在連接服務器，請保持良好的網絡連接。"/>
+		<ServerNoticeTitle value="服務器公告"/>
+		<ReconnectTitle value="重連接服務器失敗"/>
+		<ReconnectContent value="請點擊確定再次嘗試。"/>
+		<SaveSucceed value="保存成功！"/>
+		<SaveFailed value="保存失敗！"/>
+		<ReLoginTitle value="重登陸失敗"/>
+		<ReLoginContent value="請點擊確定再次嘗試。"/>
+		<ConnectTitle value="連接服務器失敗"/>
+		<ConnectTitleFull value="伺服器已滿"/>
+		<ConnectTitleLost value="與伺服器斷開連接"/>
+		<ConnectContent value="請點擊確定重新連接。"/>
+		
+		<LoginTitle value="登陸失敗"/>
+		<LoginContent value="請點擊確定重新登陸。"/>
+		<LoginExistTitle value="重複登陸"/>
+		<LoginExistContent value="請等待片刻後點擊確定再次登陸。"/>
+		<LoginWrongTitle value="錯誤的版本號"/>
+		<LoginWrongContent value="請更新到最新版本進行遊戲。"/>
+		
+		<ReLoginSucc value="進入大廳"/>
+		<ServerFull value="服務器已滿,請稍候登錄。"/>
+		
+		<Nickname value="昵稱:"/>
+		<Title value="頭銜:"/>
+		<Assets value="個人資產:"/>
+		<WinGames value="已贏牌局:"/>
+		<MaxWinBet value="最大贏注:"/>
+		<WinRate value="贏牌概率:"/>
+		<BestType value="最佳牌型:"/>
+		<Sex value="姓別:"/>
+		<Tell value="綁定手機:"/>
+		<HeadChoose value="選擇頭像:"/>
+		
+		<EditInfoTitle value="編輯玩家信息"/>
+		<InputName value="請輸入您的昵稱"/>
+		<InputTell value="請輸入您的手機號碼"/>
+		<EditInfoConfirmTitle value="放棄編輯"/>
+		<EditInfoConfirmContent value="您已改變了玩家資訊，確定要放棄本次編輯嗎？"/>
+		<EditInfoFaild value="提交信息失敗"/>
+		<EditInfoSucceed value="提交信息成功."/>
+		<ItmeExChangeFaild value="兌換道具失敗"/>
+		<ItmeExChangeSucceed value="兌換道具成功"/>
+		<PosCardFailed value="刷卡失敗:今日已領取"/>
+		<PosCardSucceed value="刷卡成功!獲得籌碼:"/>
+		<EnterGameFailed value="進入房間失敗"/>
+		<EnterGameFailedFull value="進入房間失敗:房間已滿"/>
+		
+		<MM_BuyPackage0 value="2元人民幣購買1万籌碼"/>
+		<MM_BuyPackage1 value="5元人民幣購買3万籌碼"/>
+		<MM_BuyPackage2 value="10元人民幣購買7万籌碼"/>
+		<MM_BuyPackage3 value="20元人民幣購買16万籌碼"/>
+		<MM_BuyPackage4 value="30元人民幣購買27万籌碼"/>
+		
+		<IOS_BuyPackage0 value="本套餐包含40000游戏筹码"/>
+		<IOS_BuyPackage1 value="本套餐包含90000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage2 value="本套餐包含180000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage3 value="本套餐包含350000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage4 value="本套餐包含900000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage5 value="本套餐包含2000000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage6 value="本套餐包含8000000游戏筹码以及VIP头衔"/>
+
+		<TestName value="天爺"/>
+		<TestBankDesc0 value="無紅利卡"/>
+		<TestBankDesc1 value="初級红利卡"/>
+		<TestBankDesc2 value="中級红利卡"/>
+		<TestBankDesc3 value="頂級红利卡"/>
+		<TestBankDesc4 value="大師红利卡"/>
+		<TestBankDesc5 value="終身红利卡"/>
+
+		<TitleType0 value="初陣臨敵"/>
+		<TitleType1 value="第一桶金"/>
+		<TitleType2 value="嶄露頭角"/>
+		<TitleType3 value="業餘玩家"/>
+		<TitleType4 value="牌技精湛"/>
+		<TitleType5 value="專業牌手"/>
+		<TitleType6 value="職業牌手"/>
+		<TitleType7 value="大師牌手"/>
+		<TitleType8 value="終身大師"/>
+		<TitleType9 value="特級大師"/>
+		
+		<ChipsCarryMin value="最低"/>
+		<ChipsCarryMax value="最高"/>
+		
+		<GameBackConfirmTitle value="返回大廳"/>
+		<GameBackConfirmContent value="您正在進行遊戲，確定要返回大廳嗎？"/>
+		
+		<ChangeSeatConfirmTitle value="更換坐位"/>
+		<ChangeSeatConfirmContent value="您正在進行遊戲，確定要棄牌並更換坐位嗎？"/>
+		
+		<ChangeRoomConfirmTitle value="更換房間"/>
+		<ChangeRoomConfirmContent value="您正在進行遊戲，確定要更換房間嗎？"/>
+
+		<NoticeTitle value="玩家:"/>
+		<ChipsTitle value="籌碼。"/>
+		<DefaultNotice value="健康遊戲公告:適度遊戲益腦,沉迷遊戲傷身,合理安排時間,享受健康生活"/>
+		<NoticeType1 value="以皇家同花順牌型贏得了"/>
+		<NoticeType2 value="以同花順牌型赢得了"/>
+		<NoticeType3 value="以四條牌型赢得了"/>
+		<NoticeType4 value="購買了"/>
+		<NoticeType5 value="加入了尊貴的VIP會員。"/>
+		<NoticeType6 value="在777遊戲中幸運地中了JP大獎,獲得了"/>
+		<NoticeType7 value="在777遊戲中幸運地拉中了777,獲得了"/>
+		<NoticeType8 value="在大樂透遊戲中幸運地買中了6個數字,獲得了"/>
+		<NoticeType9 value="在大樂透遊戲中幸運地買中了7個數字,獲得了"/>
+		<NoticeType10 value="在大樂透遊戲中幸運地買中了8個數字,獲得了"/>
+		<NoticeType11 value="在大樂透遊戲中幸運地買中了9個數字,獲得了"/>
+		<NoticeType12 value="在大樂透遊戲中幸運地買中了所有數字,獲得了"/>
+		<NoticeType13 value="在百家樂遊戲中幸運地贏得了"/>
+
+		<SlotChipsNotEnough value = "當前籌碼不足,點擊右上方可快速購買籌碼。"/>
+		
+		<Gift value="小禮物"/>
+		<Buy value="購買"/>
+		<BuyAll value="給所有人"/>
+		<Present value="贈送"/>
+		<SB value="小盲注"/>
+		<BB value="大盲注"/>
+		
+		<drink_0 value="Mojito"/>
+		<drink_1 value="XO"/>
+		<drink_2 value="草莓冰"/>
+		<drink_3 value="赤霞珠"/>
+		<drink_4 value="伏特加"/>
+		<drink_5 value="黑皮諾"/>
+		<drink_6 value="藍色冰"/>
+		<drink_7 value="馬提尼"/>
+		<drink_8 value="瑪格麗塔"/>
+		<drink_9 value="啤酒"/>
+		<drink_10 value="巧剋力"/>
+		<drink_11 value="三色毬"/>
+		<drink_12 value="甜筒"/>
+		<drink_13 value="霞多麗"/>
+		<drink_14 value="相思酒"/>
+		<drink_15 value="香檳"/>
+		<drink_16 value="DE CANO雪茄"/>
+		<drink_17 value="牛仔帽"/>
+		<drink_18 value="雪茄"/>
+		<drink_19 value="煙鬥"/>
+		<object_0 value="剋拉磚石"/>
+		<object_1 value="古董"/>
+		<object_2 value="汽車"/>
+		<object_3 value="飛機"/>
+		
+		<Categories_0 value="皇家同花順"/>
+		<Categories_1 value="同花順"/>
+		<Categories_2 value="四條"/>
+		<Categories_3 value="葫蘆"/>
+		<Categories_4 value="同花"/>
+		<Categories_5 value="順子"/>
+		<Categories_6 value="三條"/>
+		<Categories_7 value="兩對"/>
+		<Categories_8 value="一對"/>
+		<Categories_9 value="高牌"/>
+		
+		<slot_roll_back value="機器正在轉動，請稍候返回。"/>
+		<CardMaxWinBet value="贏注:"/>
+		<CardWinRate value="勝率:"/>
+		<HandStrengthLocked value="VIP開啟牌力提示功能"/>
+		<HandStrengthName value="牌力"/>
+		<HandStrengthWin value="獲勝"/>
+		
+		<CarryChipsSucc value="歡迎入座,請等待開始"/>
+		<CarryChipsFaild value="提取籌碼失敗,請確認餘額"/>
+		<BuyGiftSucc value="購買禮物成功"/>
+		<BuyGiftFaild value="購買禮物失敗"/>
+
+		<RecoverGameTips value="正在恢復上次的遊戲"/>
+		<DisconnectGameServer value="您與遊戲服務器斷開連接"/>
+		<ChangeSitFaild value="該座位已有玩家,換座失敗"/>
+		<WaitNextGame value="請等待下一局"/>
+
+		<BuyGiftNotice value="購買了禮物送給"/>
+		<BuyGiftNoticeForAll value="購買了禮物送給所有人"/>
+
+		<EndGame value="本局遊戲結束"/>
+		<PlusSymbol value="×"/>
+		
+		<BaccPlayer value="玩家:"/>
+		<BaccTie value="平局:"/>
+		<BaccBanker value="莊家:"/>
+		<Bacc_roll_back value="您正在進行遊戲，請稍候返回"/>
+		<BaccBetFailed value="投注失敗!籌碼不足或已達上限"/>
+
+		<KenoResultSucc value="購買大樂透成功!等待開獎"/>
+		<KenoResultFailed value="購買大樂透失敗"/>
+		<KenoFailed value="購買大樂透失敗，籌碼不足"/>
+		<KenoResult value="本期大樂透中獎號碼為: "/>
+		<RunKenoStart value="準備開獎"/>
+		<RunKenoBefore value="正在開出第"/>
+		<RunKenoAfter value="個號碼"/>
+		<KenoWin0 value="恭喜您在"/>
+		<KenoWin1 value="期大乐透中了"/>
+		<KenoWin2 value="个号码"/>
+		<KenoWin3 value="压注"/>
+		<KenoWin4 value="，获得奖金"/>
+		
+		<GameProcess1 value="棄牌"/>
+		<GameProcess2 value="加注"/>
+		<GameProcess3 value="跟注"/>
+		<GameProcess4 value="過牌"/>
+		<GameProcess5 value="All in"/>
+		<GameProcess6 value="大盲注"/>
+		<GameProcess7 value="小盲注"/>
+
+    <CourseText1 value="1. 每個玩傢分兩張牌作為[ 底牌]"/>
+    <CourseText2 value="2. 經過四輪下註陸續髮齣五張[公共牌]"/>
+    <CourseText3 value="3. [ 底牌 ]+[ 公共牌 ]， 七選五，組郃成 
+最大牌型跟賸餘玩傢鬥牌，贏取獎池籌碼"/>
+    <CourseText4 value="4. 遊戲牌型提示 ，及時顯示玩傢的最高牌型"/>
+    <CourseText5 value="5. 同桌玩傢信息提示 ，顯示對方玩傢的相關
+   信息,點擊         標誌 可贈送對手禮物或資產。"/>
+    <CourseText6 value="6. 遊戲菜單按鈕功能包括：
+                        [遊戲換桌] 与 [補充籌碼] 以及 [返迴大廳]。"/>
+    
+  </zh_TW>
+	<en_US>
+		<Welcome value="Welcome to venus poker"/>
+		
+		<PurchaseSucceed value="Purchase Succeed"/>
+		<PurchaseVerifying value="Purchase Verifying"/>
+		<PurchaseSucceedContent value="Tap Confirm to continue."/>
+		<PurchaseFailed value="Purchase Failed"/>
+		<PurchaseFailedContent value="Tap Confirm to continue."/>
+		<Purchase0 value="Thank you for using"/>
+		<Purchase1 value="Buy"/>
+		<Purchase2 value="Chips"/>
+		<MM_Purchase value="MM pay"/>
+		<YOUMI_Purchase value="YOUMI wall"/>
+		<APPSTORE_Purchase value="apple purchase"/>
+		
+		<EventInfoTarget0 value="Goal：Change information and binding mobile phone"/>
+		<EventInfoAward0 value="Reward：2000 Chips"/>
+		<EventInfoTarget1 value="Goal：Buy Chips"/>
+		<EventInfoAward1 value="Reward："/>
+		<EventInfoTarget2 value="Goal：Buy a VIP package"/>
+		<EventInfoAward2 value="Reward：Become a VIP，upgrade daily tasks"/>
+		<EventInfoTarget3 value="Goal：Gift giving cost"/>
+		<EventInfoAward3 value="Reward：A gold"/>
+		<EventInfoTarget4 value="Goal：Daily log"/>
+		<EventInfoAward4_0 value="Reward：2000 Chips"/>
+		<EventInfoAward4_1 value="Reward：4000 Chips"/>
+		<EventInfoTarget5 value="Goal：Play 10 game TexaspPoker"/>
+		<EventInfoAward5_0 value="Reward：2000 Chips"/>
+		<EventInfoAward5_1 value="Reward：4000 Chips"/>
+		<EventInfoTarget6 value="Goal：Play 30 game Slot"/>
+		<EventInfoAward6_0 value="Reward：2000 Chips"/>
+		<EventInfoAward6_1 value="Reward：4000 Chips"/>
+		<EventInfoTarget7 value="Goal：Play 3 game Keno"/>
+		<EventInfoAward7_0 value="Reward：2000 Chips"/>
+		<EventInfoAward7_1 value="Reward：4000 Chips"/>
+		<EventInfoTarget8 value="Goal：Play 10 game Baccarat"/>
+		<EventInfoAward8_0 value="Reward：2000 Chips"/>
+		<EventInfoAward8_1 value="Reward：4000 Chips"/>
+		
+		<EventFinish value="Mission Accomplished"/>
+		<EventAwardChips value="Reward Chips："/>
+		<EventAwardCardNew value="Congratulations!! You get a"/>
+		<EventAwardCardUp value="Your card has been upgraded "/>
+		<EventAwardVip value="Congratulations!!You become a VIP "/>
+		<EventAwardGold value="Congratulations!!You get a gold"/>
+		
+		<W value="万"/>
+		<Y value="亿"/>
+		<WY value="万亿"/>
+		<AllOnline value="All:"/>
+		<ExitTitle value="Exit"/>
+		<ExitContent value="Do you really want to exit?"/>
+		<Confirm value="Confirm"/>
+		<Cancel value="Cancel"/>
+		<Close value="Close"/>
+		<Loading value="Connecting to the server, please keep your connection alive."/>
+		<ServerNoticeTitle value="ServerNotice"/>
+		<ReconnectTitle value="ReConnection Failed"/>
+		<ReconnectContent value="Please click the &quot;Confirm&quot; button to try again."/>
+		<SaveSucceed value="Save Succeed!"/>
+		<SaveFailed value="Save Failed!"/>
+		<ReLoginTitle value="ReLogin Failed"/>
+		<ReLoginContent value="Please click the &quot;Confirm&quot; button to try again."/>
+
+		<ConnectTitle value="Connection Failed"/>
+		<ConnectTitleFull value="Server Is Full"/>
+		<ConnectTitleLost value="Connection is Lost"/>
+		<ConnectContent value="Please click the &quot;Confirm&quot; button for reconnecting."/>
+		
+		<LoginTitle value="Login Failed"/>
+		<LoginContent value="Please click the &quot;Confirm&quot; button for relogin."/>
+		<LoginExistTitle value="Already Login"/>
+		<LoginExistContent value="Please wait a moment and click the &quot;Confirm&quot; button for relogin."/>
+		<LoginWrongTitle value="Wrong Version"/>
+		<LoginWrongContent value="Please update to the lastest version."/>
+		
+		<ReLoginSucc value="Enter Lobby"/>
+		<ServerFull value="Server is full.Please wait Some times and try again."/>
+		
+		<Nickname value="Name:"/>
+		<Title value="Title:"/>
+		<Assets value="Assets:"/>
+		<WinGames value="Win:"/>
+		<MaxWinBet value="MaxBet:"/>
+		<WinRate value="WinRate:"/>
+		<BestType value="BestCategories:"/>
+		<Sex value="Sex:"/>
+		<Tell value="Tel:"/>
+		
+		<EditInfoTitle value="Edit Player Infomation"/>
+		<InputName value="Plz Input Name"/>
+		<InputTell value="Plz Input Tel-Num"/>
+		<HeadChoose value="Choose Gravatar:"/>
+		<EditInfoConfirmTitle value="Give Up Edit"/>
+		<EditInfoConfirmContent value="You have changed the information, do you really want to give up this edit?"/>
+		<EditInfoFaild value="Submit info Failed."/>
+		<EditInfoSucceed value="Submit info Succeed."/>
+		<ItmeExChangeFaild value="Exchange Failed."/>
+		<ItmeExChangeSucceed value="Exchange Succeed."/>
+		<PosCardFailed value="Swipe the card Failed.Today is Swiped."/>
+		<PosCardSucceed value="Swipe the card Succeed.Get Chips:"/>
+		<EnterGameFailed value="Enter this room failed."/>
+		<EnterGameFailedFull value="Enter this room failed: Room is Full."/>
+		
+		<MM_BuyPackage0 value="2RMB Buy10000 Chips"/>
+		<MM_BuyPackage1 value="5RMB Buy30000 Chips"/>
+		<MM_BuyPackage2 value="10RMB Buy70000 Chips"/>
+		<MM_BuyPackage3 value="20RMB Buy160000 Chips"/>
+		<MM_BuyPackage4 value="30RMB Buy270000Chips"/>
+		
+		<IOS_BuyPackage0 value="本套餐包含40000游戏筹码"/>
+		<IOS_BuyPackage1 value="本套餐包含90000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage2 value="本套餐包含180000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage3 value="本套餐包含350000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage4 value="本套餐包含900000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage5 value="本套餐包含2000000游戏筹码以及VIP头衔"/>
+		<IOS_BuyPackage6 value="本套餐包含8000000游戏筹码以及VIP头衔"/>
+
+		<TestName value="God"/>
+		<TestBankDesc0 value="NoBonus"/>
+		<TestBankDesc1 value="Jr.Bonus"/>
+		<TestBankDesc2 value="MC.Bonus"/>
+		<TestBankDesc3 value="Top.Bonus"/>
+		<TestBankDesc4 value="Master.Bonus"/>
+		<TestBankDesc5 value="AL.Bonus"/>
+
+		<TitleType0 value="Corporal"/>
+		<TitleType1 value="Sergeant"/>
+		<TitleType2 value="MasterSergeant"/>
+		<TitleType3 value="Captain"/>
+		<TitleType4 value="Major"/>
+		<TitleType5 value="LieutenantColonel"/>
+		<TitleType6 value="Colonel"/>
+		<TitleType7 value="MajorGeneral"/>
+		<TitleType8 value="LieutenantGeneral"/>
+		<TitleType9 value="General"/>
+		
+		<ChipsCarryMin value="Min"/>
+		<ChipsCarryMax value="Max"/>
+		
+		<GameBackConfirmTitle value="Exit to Lobby"/>
+		<GameBackConfirmContent value="Do you really want to exit?"/>
+		
+		<ChangeSeatConfirmTitle value="Change Seat"/>
+		<ChangeSeatConfirmContent value="Do you really want to change seat?"/>
+		
+		<ChangeRoomConfirmTitle value="Change Room"/>
+		<ChangeRoomConfirmContent value="Do you really want to change room?"/>
+
+		<NoticeTitle value="Player: "/>
+		<ChipsTitle value=" Chips."/>
+		<DefaultNotice value="Healthy Game Notice:Moderate game brain,Indulged games,Arrange time,Enjoy healthy life"/>
+		<NoticeType1 value=" Geted The Royal Straight Flush,Won "/>
+		<NoticeType2 value=" Geted The Straight Flush,Won "/>
+		<NoticeType3 value=" Geted The Four of a kind,Won "/>
+		<NoticeType4 value=" Bought "/>
+		<NoticeType5 value=" Joined The VIP"/>
+		<NoticeType6 value=" Played The SlotGame,Fortunately Geted The JP,Won "/>
+		<NoticeType7 value=" Played The SlotGame,Fortunately Geted The 777,Won "/>
+		<NoticeType8 value=" Played The KenoGame,Fortunately Geted 6 Numbers,Won "/>
+		<NoticeType9 value=" Played The KenoGame,Fortunately Geted 7 Numbers,Won "/>
+		<NoticeType10 value=" Played The KenoGame,Fortunately Geted 8 Numbers,Won "/>
+		<NoticeType11 value=" Played The KenoGame,Fortunately Geted 9 Numbers,Won "/>
+		<NoticeType12 value=" Played The KenoGame,Fortunately Geted 10 Numbers,Won "/>
+		<NoticeType13 value=" Played The BaccaratGame,Fortunately Won "/>
+	
+		<SlotChipsNotEnough value = "Chips Not Enough,Click Upper Right To Buy More Chips Right Now."/>
+		
+		<Gift value="Gift"/>
+		<Buy value="Buy"/>
+		<BuyAll value="For all"/>
+		<Present value="Present"/>
+		<SB value="SB"/>
+		<BB value="BB"/>
+		
+		<drink_0 value="Mojito"/>
+		<drink_1 value="XO"/>
+		<drink_2 value="Iced Red Bean"/>
+		<drink_3 value="Red Wine"/>
+		<drink_4 value="Remy Martin"/>
+		<drink_5 value="Pinot Noir"/>
+		<drink_6 value="Blue Lagoon"/>
+		<drink_7 value="Martini"/>
+		<drink_8 value="Margaritas"/>
+		<drink_9 value="Budweiser"/>
+		<drink_10 value="DOVE"/>
+		<drink_11 value="Fruit Cream"/>
+		<drink_12 value="Sugar Cone"/>
+		<drink_13 value="Chardonnay"/>
+		<drink_14 value="Lovesickness"/>
+		<drink_15 value="Chenin Blanc"/>
+		<drink_16 value="DE CANO"/>
+		<drink_17 value="Cowboy hat"/>
+		<drink_18 value="Cigar"/>
+		<drink_19 value="Pipe"/>
+		<object_0 value="Masonry"/>
+		<object_1 value="Antique"/>
+		<object_2 value="Car"/>
+		<object_3 value="Aircraft"/>
+		
+		<Categories_0 value="Royal Flush"/>
+		<Categories_1 value="Straight Flush"/>
+		<Categories_2 value="Four of a kind"/>
+		<Categories_3 value="Full house"/>
+		<Categories_4 value="Flush"/>
+		<Categories_5 value="Straight"/>
+		<Categories_6 value="Three of a kind"/>
+		<Categories_7 value="Two pair"/>
+		<Categories_8 value="One pair"/>
+		<Categories_9 value="High card"/>
+		
+		<slot_roll_back value="Now rolling, please wait a minute."/>
+		<CardMaxWinBet value="WB:"/>
+		<CardWinRate value="WR:"/>
+		<HandStrengthLocked value="VIP Unlock Strength"/>
+		<HandStrengthName value="Strength"/>
+		<HandStrengthWin value="win"/>
+
+		<CarryChipsSucc value="Welcome,Please Wait For Begin"/>
+		<CarryChipsFaild value="Carry Chips Failed,Check Balance"/>
+		<BuyGiftSucc value="Buy Gift Succeed"/>
+		<BuyGiftFaild value="Buy Gift Failed"/>
+
+		<RecoverGameTips value="ReCovering Last Game"/>
+		<DisconnectGameServer value="Sorry.You Lost The Game Server"/>
+		<ChangeSitFaild value="Change seat failed"/>
+		<WaitNextGame value="Please Wait For Next Game"/>
+
+		<BuyGiftNotice value="Buyed Present For"/>
+		<BuyGiftNoticeForAll value="Buyed Present For EveryBody"/>
+
+		<EndGame value="This Game Is Over"/>
+		<PlusSymbol value="×"/>
+		
+		<BaccPlayer value="PLAYER:"/>
+		<BaccTie value="TIE:"/>
+		<BaccBanker value="BANKER:"/>
+		<Bacc_roll_back value="Playing the game，please wait a minute."/>
+		<BaccBetFailed value="Chips Is Not Enough Or Reach the limit"/>
+
+		<KenoResultSucc value="Succeed.Please Waiting For Lottery Results"/>
+		<KenoResultFailed value="Buy Keno Failed"/>
+		<KenoFailed value="Failed，Chips Not Enough"/>
+		<KenoResult value="The Keno Winning Lottery Number Is: "/>
+		<RunKenoStart value="Ready"/>
+		<RunKenoBefore value="Publishing No. "/>
+		<RunKenoAfter value=""/>
+		<KenoWin0 value="Congratulations！No. "/>
+		<KenoWin1 value="  Keno "/>
+		<KenoWin2 value=" Numbers "/>
+		<KenoWin3 value=" Bet "/>
+		<KenoWin4 value="，Prize Chips "/>
+		
+		<GameProcess1 value="Fold"/>
+		<GameProcess2 value="Raise"/>
+		<GameProcess3 value="Call"/>
+		<GameProcess4 value="Check"/>
+		<GameProcess5 value="All in"/>
+		<GameProcess6 value="Big Blind"/>
+		<GameProcess7 value="Small Blind"/>
+		
+    <CourseText1 value="1. Each player is dealt two 
+      private cards [Hole cards]"/>
+    <CourseText2 value="2. After four rounds of betting 
+      Being issued five[Community cards]"/>
+    <CourseText3 value="3. [ Hole cards ]+[ Community cards ] "/>
+    <CourseText4 value="4. Game Help. The best 5-card "/>
+    <CourseText5 value="5. Check out other player's stats and 
+      level trying to guess how good they are."/>
+    <CourseText6 value="6. Menu button: [Change room]
+[Buy into game] [Exit to Lobby]"/>
+
+  </en_US>
+</string>

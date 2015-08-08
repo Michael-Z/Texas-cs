@@ -1,0 +1,16 @@
+Tier1     0.99    40000
+Tier2     1.99    90000
+Tier4     3.99    180000
+Tier8     7.99    350000
+Tier20    19.99   900000
+Tier40    39.99   2000000
+Tier60    99.99   8000000
+
+
+Product ID：com.VenusIE.Tier1cn.VenusIE.TexasPoker
+英文：      Buy   Chips
+            Buy   Chips and become a VIP
+簡體：      本套餐包含 游戏筹码
+						本套餐包含 游戏筹码以及VIP头衔
+繁體：      本套餐包含 遊戲籌碼
+						本套餐包含 遊戲籌碼以及VIP頭銜

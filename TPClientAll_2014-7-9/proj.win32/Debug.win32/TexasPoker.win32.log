@@ -1,0 +1,22 @@
+﻿Build started 2014/4/13 18:18:55.
+     1>Project "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\proj.win32\TexasPoker.win32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug.win32\TexasPoker.win32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Performing Custom Build Tools
+         VE_LOG|TYPE:INFO|TAG:ServerTool|LOG:server=false client=true input=C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Classes\ServerDefine\TexasPokerHall.xml output=C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Classes\ServerDefine\..
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         TexasPoker.win32.vcxproj -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\proj.win32\Debug.win32\TexasPoker.win32.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\TexasPoker.win32.unsuccessfulbuild".
+         Touching "Debug.win32\TexasPoker.win32.lastbuildstate".
+     1>Done Building Project "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\proj.win32\TexasPoker.win32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91

@@ -1,0 +1,56 @@
+﻿Build started 2014/4/13 16:22:20.
+     1>Project "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\zlib\zlib.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\zlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D NDEBUG /D _LIB /D VE_CPU_X86 /D VE_PLATFORM_WIN /D VE_MEM_DEBUG /D VE_RELEASE /D VE_STATIC_LIB /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\\" /Fd"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\vc100.pdb" /Gd /TC /wd4996 /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Externals\zlib\adler32.c ..\..\..\..\Externals\zlib\compress.c ..\..\..\..\Externals\zlib\crc32.c ..\..\..\..\Externals\zlib\deflate.c ..\..\..\..\Externals\zlib\gzclose.c ..\..\..\..\Externals\zlib\gzlib.c ..\..\..\..\Externals\zlib\gzread.c ..\..\..\..\Externals\zlib\gzwrite.c ..\..\..\..\Externals\zlib\infback.c ..\..\..\..\Externals\zlib\inffast.c ..\..\..\..\Externals\zlib\inflate.c ..\..\..\..\Externals\zlib\inftrees.c ..\..\..\..\Externals\zlib\trees.c ..\..\..\..\Externals\zlib\uncompr.c ..\..\..\..\Externals\zlib\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\zlib.lib" /NOLOGO C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\adler32.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\compress.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\crc32.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\deflate.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\gzclose.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\gzlib.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\gzread.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\gzwrite.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\infback.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\inffast.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\inflate.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\inftrees.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\trees.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\uncompr.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\zutil.obj
+         zlib.vcxproj -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\zlib.lib
+       PostBuildEvent:
+         Description: Copying zlib files to SDK
+         call C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\\CopyExternalsToSDK.bat zlib VC100 Win32 Release
+         :VCEnd
+         (Creating SDK directories)
+         (only copying new or modified files)
+         复制了 0 个文件
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Binaries\Windows\VC100\Win32\Release\zlib.lib -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\SDK\Windows\VC100\Win32\Release\zlib.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\zlib.unsuccessfulbuild".
+         Touching "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\zlib\zlib.lastbuildstate".
+     1>Done Building Project "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\zlib\zlib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.25

@@ -1,0 +1,105 @@
+﻿Build started 2014/4/13 16:23:12.
+     1>Project "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\VePower\VePower.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePower.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\SDK\Include\Externals /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D CURL_STATICLIB /D VE_POWER_EXPORT /D NDEBUG /D _LIB /D VE_CPU_X86 /D VE_PLATFORM_WIN /D VE_MEM_DEBUG /D VE_RELEASE /D VE_DYNAMIC_LIB /D _WINDLL /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yc"VePowerPCH.h" /Fp"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePower.pch" /Fo"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\\" /Fd"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\vc100.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Source\VePower\VePowerPCH.cpp
+         VePowerPCH.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\SDK\Include\Externals /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D CURL_STATICLIB /D VE_POWER_EXPORT /D NDEBUG /D _LIB /D VE_CPU_X86 /D VE_PLATFORM_WIN /D VE_MEM_DEBUG /D VE_RELEASE /D VE_DYNAMIC_LIB /D _WINDLL /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yu"VePowerPCH.h" /Fp"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePower.pch" /Fo"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\\" /Fd"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\vc100.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Source\VePower\VeAllocator.cpp ..\..\..\..\Source\VePower\VeAllocatorManager.cpp ..\..\..\..\Source\VePower\VeAngle.cpp ..\..\..\..\Source\VePower\VeAsset.cpp ..\..\..\..\Source\VePower\VeBackgroundTaskQueue.cpp ..\..\..\..\Source\VePower\VeDirectory.cpp ..\..\..\..\Source\VePower\VeBinaryStream.cpp ..\..\..\..\Source\VePower\VeColor.cpp ..\..\..\..\Source\VePower\VeFile.cpp ..\..\..\..\Source\VePower\VeFloat16.cpp ..\..\..\..\Source\VePower\VeMath.cpp ..\..\..\..\Source\VePower\VeMatrix.cpp ..\..\..\..\Source\VePower\VeMemoryStream.cpp ..\..\..\..\Source\VePower\VeQuaternion.cpp ..\..\..\..\Source\VePower\VeResource.cpp ..\..\..\..\Source\VePower\VeResourceManager.cpp ..\..\..\..\Source\VePower\VeRTTI.cpp ..\..\..\..\Source\VePower\VeSharedLib.cpp ..\..\..\..\Source\VePower\VeLog.cpp ..\..\..\..\Source\VePower\VeMemObject.cpp ..\..\..\..\Source\VePower\VeMemory.cpp ..\..\..\..\Source\VePower\VePower.cpp ..\..\..\..\Source\VePower\VeRefObject.cpp ..\..\..\..\Source\VePower\VeString.cpp ..\..\..\..\Source\VePower\VeStringParser.cpp ..\..\..\..\Source\VePower\VeThread.cpp ..\..\..\..\Source\VePower\VeTime.cpp ..\..\..\..\Source\VePower\VeURL.cpp ..\..\..\..\Source\VePower\VeVector2D.cpp ..\..\..\..\Source\VePower\VeVector3D.cpp ..\..\..\..\Source\VePower\VeVector4D.cpp ..\..\..\..\Source\VePower\VeXML.cpp ..\..\..\..\Source\VePower\VeZip.cpp
+         VeAllocator.cpp
+         VeAllocatorManager.cpp
+         VeAngle.cpp
+         VeAsset.cpp
+         VeBackgroundTaskQueue.cpp
+         VeDirectory.cpp
+         VeBinaryStream.cpp
+         VeColor.cpp
+         VeFile.cpp
+         VeFloat16.cpp
+         VeMath.cpp
+         VeMatrix.cpp
+         VeMemoryStream.cpp
+         VeQuaternion.cpp
+         VeResource.cpp
+         VeResourceManager.cpp
+         VeRTTI.cpp
+         VeSharedLib.cpp
+         VeLog.cpp
+         VeMemObject.cpp
+         Generating Code...
+         Compiling...
+         VeMemory.cpp
+         VePower.cpp
+         VeRefObject.cpp
+         VeString.cpp
+         VeStringParser.cpp
+         VeThread.cpp
+         VeTime.cpp
+         VeURL.cpp
+         VeVector2D.cpp
+         VeVector3D.cpp
+         VeVector4D.cpp
+         VeXML.cpp
+         VeZip.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\VePower.dll" /NOLOGO /LIBPATH:C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\SDK\Windows\VC100\Win32\Release zlib.lib zziplib.lib curllib.lib ws2_32.lib wldap32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePower.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Binaries\Windows\VC100\Win32\Release\VePower.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\VePower.lib" /MACHINE:X86 /DLL C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeAllocator.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeAllocatorManager.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeAngle.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeAsset.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeBackgroundTaskQueue.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeDirectory.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeBinaryStream.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeColor.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeFile.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeFloat16.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeMath.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeMatrix.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeMemoryStream.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeQuaternion.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeResource.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeResourceManager.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeRTTI.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeSharedLib.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePowerPCH.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeLog.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeMemObject.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeMemory.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePower.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeRefObject.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeString.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeStringParser.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeThread.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeTime.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeURL.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeVector2D.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeVector3D.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeVector4D.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeXML.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VeZip.obj
+            Creating library C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\VePower.lib and object C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\VePower.exp
+         VePower.vcxproj -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\VePower.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\VePower.dll;#2" /manifest C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePower.dll.intermediate.manifest
+       PostBuildEvent:
+         Description: Copying VePower files to SDK
+         call C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\\CopyToSDK.bat VePower VC100 Win32 Release
+         :VCEnd
+         (Creating SDK directories)
+         (only copying new or modified files)
+         复制了 0 个文件
+         复制了 0 个文件
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Binaries\Windows\VC100\Win32\Release\VePower.lib -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\SDK\Windows\VC100\Win32\Release\VePower.lib
+         复制了 1 个文件
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Binaries\Windows\VC100\Win32\Release\VePower.dll -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\SDK\Windows\VC100\Win32\Release\VePower.dll
+         复制了 1 个文件
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Binaries\Windows\VC100\Win32\Release\VePower.pdb -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\SDK\Windows\VC100\Win32\Release\VePower.pdb
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePower.unsuccessfulbuild".
+         Touching "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\CoreLibs\VePower\VePower.lastbuildstate".
+     1>Done Building Project "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\VePower\VePower.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.16

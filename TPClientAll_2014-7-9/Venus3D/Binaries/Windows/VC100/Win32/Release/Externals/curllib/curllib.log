@@ -1,0 +1,250 @@
+﻿Build started 2014/4/13 16:22:20.
+     1>Project "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\curllib\curllib.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curllib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Externals\curllib /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D BUILDING_LIBCURL /D CURL_STATICLIB /D NDEBUG /D _LIB /D VE_CPU_X86 /D VE_PLATFORM_WIN /D VE_MEM_DEBUG /D VE_RELEASE /D VE_STATIC_LIB /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\\" /Fd"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\vc100.pdb" /Gd /TC /wd4267 /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Externals\curllib\amigaos.c "..\..\..\..\Externals\curllib\asyn-ares.c" "..\..\..\..\Externals\curllib\asyn-thread.c" ..\..\..\..\Externals\curllib\axtls.c ..\..\..\..\Externals\curllib\base64.c ..\..\..\..\Externals\curllib\connect.c ..\..\..\..\Externals\curllib\content_encoding.c ..\..\..\..\Externals\curllib\cookie.c ..\..\..\..\Externals\curllib\curl_addrinfo.c ..\..\..\..\Externals\curllib\curl_darwinssl.c ..\..\..\..\Externals\curllib\curl_fnmatch.c ..\..\..\..\Externals\curllib\curl_gethostname.c ..\..\..\..\Externals\curllib\curl_gssapi.c ..\..\..\..\Externals\curllib\curl_memrchr.c ..\..\..\..\Externals\curllib\curl_multibyte.c ..\..\..\..\Externals\curllib\curl_ntlm.c ..\..\..\..\Externals\curllib\curl_ntlm_core.c ..\..\..\..\Externals\curllib\curl_ntlm_msgs.c ..\..\..\..\Externals\curllib\curl_ntlm_wb.c ..\..\..\..\Externals\curllib\curl_rand.c ..\..\..\..\Externals\curllib\curl_rtmp.c ..\..\..\..\Externals\curllib\curl_sasl.c ..\..\..\..\Externals\curllib\curl_schannel.c ..\..\..\..\Externals\curllib\curl_sspi.c ..\..\..\..\Externals\curllib\curl_threads.c ..\..\..\..\Externals\curllib\cyassl.c ..\..\..\..\Externals\curllib\dict.c ..\..\..\..\Externals\curllib\easy.c ..\..\..\..\Externals\curllib\escape.c ..\..\..\..\Externals\curllib\file.c ..\..\..\..\Externals\curllib\fileinfo.c ..\..\..\..\Externals\curllib\formdata.c ..\..\..\..\Externals\curllib\ftp.c ..\..\..\..\Externals\curllib\ftplistparser.c ..\..\..\..\Externals\curllib\getenv.c ..\..\..\..\Externals\curllib\getinfo.c ..\..\..\..\Externals\curllib\gopher.c ..\..\..\..\Externals\curllib\gtls.c ..\..\..\..\Externals\curllib\hash.c ..\..\..\..\Externals\curllib\hmac.c ..\..\..\..\Externals\curllib\hostasyn.c ..\..\..\..\Externals\curllib\hostip.c ..\..\..\..\Externals\curllib\hostip4.c ..\..\..\..\Externals\curllib\hostip6.c ..\..\..\..\Externals\curllib\hostsyn.c ..\..\..\..\Externals\curllib\http.c ..\..\..\..\Externals\curllib\http_chunks.c ..\..\..\..\Externals\curllib\http_digest.c ..\..\..\..\Externals\curllib\http_negotiate.c ..\..\..\..\Externals\curllib\http_negotiate_sspi.c ..\..\..\..\Externals\curllib\http_proxy.c ..\..\..\..\Externals\curllib\idn_win32.c ..\..\..\..\Externals\curllib\if2ip.c ..\..\..\..\Externals\curllib\imap.c ..\..\..\..\Externals\curllib\inet_ntop.c ..\..\..\..\Externals\curllib\inet_pton.c ..\..\..\..\Externals\curllib\krb4.c ..\..\..\..\Externals\curllib\krb5.c ..\..\..\..\Externals\curllib\ldap.c ..\..\..\..\Externals\curllib\llist.c ..\..\..\..\Externals\curllib\md4.c ..\..\..\..\Externals\curllib\md5.c ..\..\..\..\Externals\curllib\memdebug.c ..\..\..\..\Externals\curllib\mprintf.c ..\..\..\..\Externals\curllib\multi.c ..\..\..\..\Externals\curllib\netrc.c "..\..\..\..\Externals\curllib\non-ascii.c" ..\..\..\..\Externals\curllib\nonblock.c ..\..\..\..\Externals\curllib\nss.c ..\..\..\..\Externals\curllib\nwlib.c ..\..\..\..\Externals\curllib\nwos.c ..\..\..\..\Externals\curllib\openldap.c ..\..\..\..\Externals\curllib\parsedate.c ..\..\..\..\Externals\curllib\pingpong.c ..\..\..\..\Externals\curllib\polarssl.c ..\..\..\..\Externals\curllib\pop3.c ..\..\..\..\Externals\curllib\progress.c ..\..\..\..\Externals\curllib\qssl.c ..\..\..\..\Externals\curllib\rawstr.c ..\..\..\..\Externals\curllib\rtsp.c ..\..\..\..\Externals\curllib\security.c ..\..\..\..\Externals\curllib\select.c ..\..\..\..\Externals\curllib\sendf.c ..\..\..\..\Externals\curllib\share.c ..\..\..\..\Externals\curllib\slist.c ..\..\..\..\Externals\curllib\smtp.c ..\..\..\..\Externals\curllib\socks.c ..\..\..\..\Externals\curllib\socks_gssapi.c ..\..\..\..\Externals\curllib\socks_sspi.c ..\..\..\..\Externals\curllib\speedcheck.c ..\..\..\..\Externals\curllib\splay.c ..\..\..\..\Externals\curllib\ssh.c ..\..\..\..\Externals\curllib\sslgen.c ..\..\..\..\Externals\curllib\ssluse.c ..\..\..\..\Externals\curllib\strdup.c ..\..\..\..\Externals\curllib\strequal.c ..\..\..\..\Externals\curllib\strerror.c ..\..\..\..\Externals\curllib\strtok.c ..\..\..\..\Externals\curllib\strtoofft.c ..\..\..\..\Externals\curllib\telnet.c ..\..\..\..\Externals\curllib\tftp.c ..\..\..\..\Externals\curllib\timeval.c ..\..\..\..\Externals\curllib\transfer.c ..\..\..\..\Externals\curllib\url.c ..\..\..\..\Externals\curllib\version.c ..\..\..\..\Externals\curllib\warnless.c ..\..\..\..\Externals\curllib\wildcard.c
+         amigaos.c
+         asyn-ares.c
+         asyn-thread.c
+         axtls.c
+         base64.c
+         connect.c
+         content_encoding.c
+         cookie.c
+         curl_addrinfo.c
+         curl_darwinssl.c
+         curl_fnmatch.c
+         curl_gethostname.c
+         curl_gssapi.c
+         curl_memrchr.c
+         curl_multibyte.c
+         curl_ntlm.c
+         curl_ntlm_core.c
+         curl_ntlm_msgs.c
+         curl_ntlm_wb.c
+         curl_rand.c
+         Generating Code...
+         Compiling...
+         curl_rtmp.c
+         curl_sasl.c
+         curl_schannel.c
+         curl_sspi.c
+         curl_threads.c
+         cyassl.c
+         dict.c
+         easy.c
+         escape.c
+         file.c
+         fileinfo.c
+         formdata.c
+         ftp.c
+         ftplistparser.c
+         getenv.c
+         getinfo.c
+         gopher.c
+         gtls.c
+         hash.c
+         hmac.c
+         Generating Code...
+         Compiling...
+         hostasyn.c
+         hostip.c
+         hostip4.c
+         hostip6.c
+         hostsyn.c
+         http.c
+         http_chunks.c
+         http_digest.c
+         http_negotiate.c
+         http_negotiate_sspi.c
+         http_proxy.c
+         idn_win32.c
+         if2ip.c
+         imap.c
+         inet_ntop.c
+         inet_pton.c
+         krb4.c
+         krb5.c
+         ldap.c
+         llist.c
+         Generating Code...
+         Compiling...
+         md4.c
+         md5.c
+         memdebug.c
+         mprintf.c
+         multi.c
+         netrc.c
+         non-ascii.c
+         nonblock.c
+         nss.c
+         nwlib.c
+         nwos.c
+         openldap.c
+         parsedate.c
+         pingpong.c
+         polarssl.c
+         pop3.c
+         progress.c
+         qssl.c
+         rawstr.c
+         rtsp.c
+         Generating Code...
+         Compiling...
+         security.c
+         select.c
+         sendf.c
+         share.c
+         slist.c
+         smtp.c
+         socks.c
+         socks_gssapi.c
+         socks_sspi.c
+         speedcheck.c
+         splay.c
+         ssh.c
+         sslgen.c
+         ssluse.c
+         strdup.c
+         strequal.c
+         strerror.c
+         strtok.c
+         strtoofft.c
+         telnet.c
+         Generating Code...
+         Compiling...
+         tftp.c
+         timeval.c
+         transfer.c
+         url.c
+         version.c
+         warnless.c
+         wildcard.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\curllib.lib" /NOLOGO C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\amigaos.obj
+         "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\asyn-ares.obj"
+         "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\asyn-thread.obj"
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\axtls.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\base64.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\connect.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\content_encoding.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\cookie.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_addrinfo.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_darwinssl.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_fnmatch.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_gethostname.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_gssapi.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_memrchr.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_multibyte.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_ntlm.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_ntlm_core.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_ntlm_msgs.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_ntlm_wb.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_rand.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_rtmp.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_sasl.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_schannel.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_sspi.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curl_threads.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\cyassl.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\dict.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\easy.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\escape.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\file.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\fileinfo.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\formdata.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\ftp.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\ftplistparser.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\getenv.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\getinfo.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\gopher.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\gtls.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\hash.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\hmac.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\hostasyn.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\hostip.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\hostip4.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\hostip6.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\hostsyn.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\http.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\http_chunks.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\http_digest.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\http_negotiate.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\http_negotiate_sspi.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\http_proxy.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\idn_win32.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\if2ip.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\imap.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\inet_ntop.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\inet_pton.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\krb4.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\krb5.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\ldap.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\llist.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\md4.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\md5.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\memdebug.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\mprintf.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\multi.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\netrc.obj
+         "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\non-ascii.obj"
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\nonblock.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\nss.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\nwlib.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\nwos.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\openldap.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\parsedate.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\pingpong.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\polarssl.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\pop3.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\progress.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\qssl.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\rawstr.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\rtsp.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\security.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\select.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\sendf.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\share.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\slist.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\smtp.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\socks.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\socks_gssapi.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\socks_sspi.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\speedcheck.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\splay.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\ssh.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\sslgen.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\ssluse.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\strdup.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\strequal.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\strerror.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\strtok.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\strtoofft.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\telnet.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\tftp.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\timeval.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\transfer.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\url.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\version.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\warnless.obj
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\wildcard.obj
+         curllib.vcxproj -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\curllib.lib
+       PostBuildEvent:
+         Description: Copying curllib files to SDK
+         call C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\\CopyExternalsToSDK.bat curllib VC100 Win32 Release
+         :VCEnd
+         (Creating SDK directories)
+         (only copying new or modified files)
+         复制了 0 个文件
+         C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Binaries\Windows\VC100\Win32\Release\curllib.lib -> C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\SDK\Windows\VC100\Win32\Release\curllib.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         Deleting file "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curllib.unsuccessfulbuild".
+         Touching "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Release\Externals\curllib\curllib.lastbuildstate".
+     1>Done Building Project "C:\Work\MobDev\ProjectX\TexasPoker\TexasPoker\TexasPoker\trunk\Venus3D\Builds\Windows\VC100\curllib\curllib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.49

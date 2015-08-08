@@ -1,0 +1,55 @@
+﻿Build started 2014/6/5 10:48:43.
+     1>Project "D:\Work\AndroidDev\cocos2d-x-2.2.3\samples\Cpp\TPClient\proj.win32\TexasPoker.win32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release.win32\TexasPoker.win32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Performing Custom Build Tools
+         VE_LOG|TYPE:INFO|TAG:ServerTool|LOG:server=false client=true input=D:\Work\AndroidDev\cocos2d-x-2.2.3\samples\Cpp\TPClient\Classes\ServerDefine\TexasPokerHall.xml output=D:\Work\AndroidDev\cocos2d-x-2.2.3\samples\Cpp\TPClient\Classes\ServerDefine\..
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\FMod\Win32\inc /I. /I..\Classes /I"..\cocos2d-x\cocos2dx" /I"..\cocos2d-x\cocos2dx\include" /I"..\cocos2d-x\cocos2dx\kazmath\include" /I"..\cocos2d-x\cocos2dx\platform\win32" /I"..\cocos2d-x\cocos2dx\platform\third_party\win32" /I"..\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES" /I"..\cocos2d-x\external\chipmunk\include\chipmunk" /I"..\cocos2d-x\CocosDenshion\include" /I"..\cocos2d-x\extensions" /I..\Classes\NetEngine /I..\Classes\Client /I..\Classes\General /I\SDK\Include /I\Externals\vld\include /I\SDK\Include\Externals /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGSNDEBUG /D VE_USER /D VE_MEM_DEBUG /D VE_RELEASE /D VE_DYNAMIC_LIB /D VE_CPU_X86 /D VE_PLATFORM_MOBILE_SIM /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release.win32\\" /Fd"Release.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4291 /wd4355 /wd4251 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\Baccarat.cpp ..\Classes\Card.cpp ..\Classes\Client\Client.cpp ..\Classes\Client\EntityC.cpp ..\Classes\Client\ServerAgent.cpp ..\Classes\Course.cpp ..\Classes\EventList.cpp ..\Classes\Game.cpp ..\Classes\GameSaveData.cpp ..\Classes\General\General.cpp ..\Classes\Hall.cpp ..\Classes\Keno.cpp ..\Classes\Knickknacks.cpp ..\Classes\Login.cpp ..\Classes\Md5.cpp ..\Classes\NativeInterface.cpp ..\Classes\NetEngine\BitStream.cpp ..\Classes\NetEngine\CCVENetSlidingWindow.cpp ..\Classes\NetEngine\CCVENetUDT.cpp ..\Classes\NetEngine\CheckSum.cpp ..\Classes\NetEngine\CommandParserInterface.cpp ..\Classes\NetEngine\ConnectionGraph2.cpp ..\Classes\NetEngine\DataCompressor.cpp ..\Classes\NetEngine\DS_BytePool.cpp ..\Classes\NetEngine\DS_ByteQueue.cpp ..\Classes\NetEngine\DS_HuffmanEncodingTree.cpp ..\Classes\NetEngine\DS_Table.cpp ..\Classes\NetEngine\EpochTimeToString.cpp ..\Classes\NetEngine\FormatString.cpp ..\Classes\NetEngine\FullyConnectedMesh2.cpp ..\Classes\NetEngine\Getche.cpp ..\Classes\NetEngine\Gets.cpp ..\Classes\NetEngine\GetTime.cpp ..\Classes\NetEngine\gettimeofday.cpp ..\Classes\NetEngine\GridSectorizer.cpp ..\Classes\NetEngine\HTTPConnection.cpp ..\Classes\NetEngine\Itoa.cpp ..\Classes\NetEngine\LinuxStrings.cpp ..\Classes\NetEngine\LocklessTypes.cpp ..\Classes\NetEngine\LogCommandParser.cpp ..\Classes\NetEngine\MessageFilter.cpp ..\Classes\NetEngine\NetworkIDManager.cpp ..\Classes\NetEngine\NetworkIDObject.cpp ..\Classes\NetEngine\PacketConsoleLogger.cpp ..\Classes\NetEngine\PacketFileLogger.cpp ..\Classes\NetEngine\PacketizedTCP.cpp ..\Classes\NetEngine\PacketLogger.cpp ..\Classes\NetEngine\PacketOutputWindowLogger.cpp ..\Classes\NetEngine\PluginInterface2.cpp ..\Classes\NetEngine\Rackspace.cpp ..\Classes\NetEngine\Rand.cpp ..\Classes\NetEngine\rdlmalloc.cpp ..\Classes\NetEngine\ReadyEvent.cpp ..\Classes\NetEngine\ReliabilityLayer.cpp ..\Classes\NetEngine\ReplicaManager3.cpp ..\Classes\NetEngine\RPC4Plugin.cpp ..\Classes\NetEngine\SecureHandshake.cpp ..\Classes\NetEngine\SendToThread.cpp ..\Classes\NetEngine\SHA1.cpp ..\Classes\NetEngine\SignaledEvent.cpp ..\Classes\NetEngine\SimpleMutex.cpp ..\Classes\NetEngine\SocketLayer.cpp ..\Classes\NetEngine\StatisticsHistory.cpp ..\Classes\NetEngine\StringCompressor.cpp ..\Classes\NetEngine\StringTable.cpp ..\Classes\NetEngine\SuperFastHash.cpp ..\Classes\NetEngine\TableSerializer.cpp ..\Classes\NetEngine\TCPInterface.cpp ..\Classes\NetEngine\TeamBalancer.cpp ..\Classes\NetEngine\TeamManager.cpp ..\Classes\NetEngine\ThreadsafePacketLogger.cpp ..\Classes\NetEngine\TwoWayAuthentication.cpp ..\Classes\NetEngine\UDPForwarder.cpp ..\Classes\NetEngine\UDPProxyClient.cpp ..\Classes\NetEngine\UDPProxyCoordinator.cpp ..\Classes\NetEngine\UDPProxyServer.cpp ..\Classes\NetEngine\VariableDeltaSerializer.cpp ..\Classes\NetEngine\VariableListDeltaTracker.cpp ..\Classes\NetEngine\VariadicSQLParser.cpp ..\Classes\NetEngine\VEMemoryOverride.cpp ..\Classes\NetEngine\VENetCommandParser.cpp ..\Classes\NetEngine\VENetSocket.cpp ..\Classes\NetEngine\VENetStatistics.cpp ..\Classes\NetEngine\VENetTransport2.cpp ..\Classes\NetEngine\VENetTypes.cpp ..\Classes\NetEngine\VEPeer.cpp ..\Classes\NetEngine\VESleep.cpp ..\Classes\NetEngine\VEString.cpp ..\Classes\NetEngine\VEThread.cpp ..\Classes\NetEngine\VEWString.cpp ..\Classes\NetEngine\VitaIncludes.cpp ..\Classes\NetEngine\WSAStartupSingleton.cpp ..\Classes\NetEngine\_FindFirst.cpp ..\Classes\OptionView.cpp ..\Classes\RoomChoose.cpp ..\Classes\Slot.cpp ..\Classes\SoundSystem.cpp ..\Classes\TexasPoker.cpp ..\Classes\TexasPokerHallAgentC.cpp ..\Classes\TexasPokerHallClient.cpp ..\Classes\TexasPokerHallPlayerC.cpp ..\Classes\UIAlert.cpp ..\Classes\UIButton.cpp ..\Classes\UIInputBox.cpp ..\Classes\UILayer.cpp ..\Classes\UILayerManager.cpp ..\Classes\UIScrollView.cpp ..\Classes\UISlider.cpp ..\Classes\UITableView.cpp ..\Classes\UIWidget.cpp ..\Classes\VeSoundData.cpp ..\Classes\VeSoundSystem.cpp ..\Classes\Venus3D.cpp main.cpp
+         AppDelegate.cpp
+     1>..\Classes\AppDelegate.cpp(1): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Baccarat.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Card.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Client.cpp
+     1>..\Classes\General\General.h(16): fatal error C1083: Cannot open include file: 'VePowerPCH.h': No such file or directory
+         EntityC.cpp
+     1>..\Classes\General\General.h(16): fatal error C1083: Cannot open include file: 'VePowerPCH.h': No such file or directory
+         ServerAgent.cpp
+     1>..\Classes\General\General.h(16): fatal error C1083: Cannot open include file: 'VePowerPCH.h': No such file or directory
+         Course.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         EventList.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Game.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         GameSaveData.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\GameSaveData.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         General.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\general\General.h(16): fatal error C1083: Cannot open include file: 'VePowerPCH.h': No such file or directory
+         Hall.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Keno.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Knickknacks.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Login.cpp
+     1>d:\work\androiddev\cocos2d-x-2.2.3\samples\cpp\tpclient\classes\UILayer.h(3): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         Md5.cpp
+         NativeInterface.cpp
+     1>..\Classes\NativeInterface.cpp(1): fatal error C1083: Cannot open include file: 'cocos2d.h': No such file or directory
+         BitStream.cpp
+         CCVENetSlidingWindow.cpp
+         CCVENetUDT.cpp
+         Generating Code...
+         Compiling...
+         CheckSum.cpp
+         CommandParserInterface.cpp
+         ConnectionGraph2.cpp
+     1>Done Building Project "D:\Work\AndroidDev\cocos2d-x-2.2.3\samples\Cpp\TPClient\proj.win32\TexasPoker.win32.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.40

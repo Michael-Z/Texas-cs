@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramBuilderLaunchConfigurationType">
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="NDK_MODULE_PATH" value="D:\Work\AndroidDev\cocos2d-x-2.2.3;D:\Work\AndroidDev\cocos2d-x-2.2.3\cocos2dx\platform\third_party\android\prebuilt;D:\Work\AndroidDev\cocos2d-x-2.2.3\samples\Cpp\TPClient\Venus3D\Source\VePower"/>
+</mapAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="D:\Work\AndroidDev\android-ndk-r9d\ndk-build.cmd"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_RUN_BUILD_KINDS" value="full,incremental,"/>
+<booleanAttribute key="org.eclipse.ui.externaltools.ATTR_TRIGGERS_CONFIGURED" value="true"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/TexasPoker.mm}"/>
+</launchConfiguration>

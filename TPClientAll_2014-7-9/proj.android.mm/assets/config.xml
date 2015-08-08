@@ -1,0 +1,7 @@
+<Client>
+	<HttpServer url="http://www.venus-ie.com:8081"/>
+	<HallServer ip="115.28.144.117" port="44000"/>
+	<HallServerLocal ip="192.168.0.111" port="44000"/>
+	<HallServerOut ip="101.224.28.218" port="44000"/>
+	<HallServerAliyun ip="115.28.144.117" port="44000"/>
+</Client>

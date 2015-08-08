@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{784ab2d7-b7bb-4276-82ed-616c0275fbe8}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{dd2bfa8a-1782-4314-a783-42f46c61584a}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{7d3733f3-706b-4a1b-8ef7-1a6b566d9a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UI">
+      <UniqueIdentifier>{e25f1ded-d8b0-40c1-8123-d21b6e97586d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NetWork">
+      <UniqueIdentifier>{e7881727-2555-4b82-b5ca-a6019e676be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\AudioSystem">
+      <UniqueIdentifier>{be3a8fd6-3aaa-44b3-a9dd-a3f5c813db77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NetWork\Client">
+      <UniqueIdentifier>{dffe110a-2f99-4785-becf-f98a36143d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NetWork\General">
+      <UniqueIdentifier>{5c6f6d0b-d625-46ef-b109-a0bb99e6916f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NetWork\ServerDefine">
+      <UniqueIdentifier>{f5a56e2e-20c5-44f4-823e-173237c8ff40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NetWork\General\NetEngine">
+      <UniqueIdentifier>{a4bfa7c3-ca8b-4666-bce8-12bbeb1532ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TexasPoker.ico">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TexasPoker.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\UIButton.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UIInputBox.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UILayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UIScrollView.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UITableView.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UIWidget.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Venus3D.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TexasPoker.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Login.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundSystem.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UILayerManager.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hall.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoomChoose.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Knickknacks.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OptionView.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UISlider.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Card.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\_FindFirst.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\BitStream.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\CCVENetSlidingWindow.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\CCVENetUDT.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\CheckSum.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\CommandParserInterface.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\ConnectionGraph2.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DataCompressor.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_BPlusTree.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_BytePool.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_ByteQueue.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_Hash.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_Heap.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_HuffmanEncodingTree.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_HuffmanEncodingTreeNode.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_LinkedList.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_List.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_Map.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_MemoryPool.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_Multilist.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_OrderedChannelHeap.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_OrderedList.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_Queue.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_QueueLinkedList.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_RangeList.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_Table.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_Tree.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\DS_WeightedGraph.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\EpochTimeToString.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\Export.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\FormatString.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\FullyConnectedMesh2.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\Getche.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\Gets.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\GetTime.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\gettimeofday.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\GridSectorizer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\HTTPConnection.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\InternalPacket.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\Itoa.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\Kbhit.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\LinuxStrings.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\LocklessTypes.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\LogCommandParser.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\MessageFilter.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\MessageIdentifiers.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\MTUSize.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\NativeFeatureIncludes.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\NativeFeatureIncludesOverrides.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\NativeTypes.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\NetworkIDManager.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\NetworkIDObject.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\PacketConsoleLogger.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\PacketFileLogger.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\PacketizedTCP.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\PacketLogger.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\PacketOutputWindowLogger.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\PacketPriority.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\PluginInterface2.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\Rackspace.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\Rand.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\rdlmalloc.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\rdlmalloc-options.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\ReadyEvent.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\RefCountedObj.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\ReliabilityLayer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\ReplicaEnums.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\ReplicaManager3.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\RPC4Plugin.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SecureHandshake.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SendToThread.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SHA1.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SignaledEvent.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SimpleMutex.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SingleProducerConsumer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SocketDefines.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SocketIncludes.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SocketLayer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\StatisticsHistory.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\StringCompressor.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\StringTable.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\SuperFastHash.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\TableSerializer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\TCPInterface.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\TeamBalancer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\TeamManager.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\ThreadPool.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\ThreadsafePacketLogger.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\TransportInterface.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\TwoWayAuthentication.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\UDPForwarder.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\UDPProxyClient.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\UDPProxyCommon.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\UDPProxyCoordinator.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\UDPProxyServer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VariableDeltaSerializer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VariableListDeltaTracker.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VariadicSQLParser.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VEAlloca.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VEAssert.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VEMemoryOverride.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetCommandParser.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetDefines.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetSmartPtr.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetSocket.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetStatistics.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetTime.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetTransport2.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetTypes.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VENetVersion.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VEPeer.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VEPeerInterface.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VESleep.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VEString.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VEThread.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VEWString.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\VitaIncludes.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\WindowsIncludes.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetEngine\WSAStartupSingleton.h">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Shaders.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UIAlert.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSaveData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Md5.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EventList.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Slot.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Keno.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Baccarat.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VeSoundSystem.h">
+      <Filter>Classes\AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VeSoundData.h">
+      <Filter>Classes\AudioSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Course.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Client.h">
+      <Filter>Classes\NetWork\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\ServerAgent.h">
+      <Filter>Classes\NetWork\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\General\General.h">
+      <Filter>Classes\NetWork\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\EntityC.h">
+      <Filter>Classes\NetWork\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TexasPokerHallAgentC.h">
+      <Filter>Classes\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TexasPokerHallClient.h">
+      <Filter>Classes\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TexasPokerHallPlayerC.h">
+      <Filter>Classes\NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NativeInterface.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UIButton.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UIInputBox.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UILayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UIScrollView.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UITableView.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UIWidget.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Venus3D.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TexasPoker.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Login.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundSystem.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UILayerManager.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hall.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RoomChoose.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Knickknacks.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OptionView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UISlider.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Card.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\_FindFirst.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\BitStream.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\CCVENetSlidingWindow.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\CCVENetUDT.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\CheckSum.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\CommandParserInterface.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\ConnectionGraph2.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\DataCompressor.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\DS_BytePool.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\DS_ByteQueue.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\DS_HuffmanEncodingTree.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\DS_Table.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\EpochTimeToString.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\FormatString.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\FullyConnectedMesh2.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\Getche.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\Gets.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\GetTime.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\gettimeofday.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\GridSectorizer.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\HTTPConnection.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\Itoa.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\LinuxStrings.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\LocklessTypes.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\LogCommandParser.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\MessageFilter.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\NetworkIDManager.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\NetworkIDObject.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\PacketConsoleLogger.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\PacketFileLogger.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\PacketizedTCP.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\PacketLogger.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\PacketOutputWindowLogger.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\PluginInterface2.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\Rackspace.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\Rand.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\rdlmalloc.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\ReadyEvent.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\ReliabilityLayer.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\ReplicaManager3.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\RPC4Plugin.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\SecureHandshake.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\SendToThread.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\SHA1.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\SignaledEvent.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\SimpleMutex.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\SocketLayer.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\StatisticsHistory.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\StringCompressor.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\StringTable.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\SuperFastHash.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\TableSerializer.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\TCPInterface.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\TeamBalancer.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\TeamManager.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\ThreadsafePacketLogger.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\TwoWayAuthentication.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\UDPForwarder.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\UDPProxyClient.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\UDPProxyCoordinator.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\UDPProxyServer.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VariableDeltaSerializer.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VariableListDeltaTracker.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VariadicSQLParser.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VEMemoryOverride.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VENetCommandParser.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VENetSocket.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VENetStatistics.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VENetTransport2.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VENetTypes.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VEPeer.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VESleep.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VEString.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VEThread.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VEWString.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\VitaIncludes.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetEngine\WSAStartupSingleton.cpp">
+      <Filter>Classes\NetWork\General\NetEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UIAlert.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSaveData.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Md5.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EventList.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Slot.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Keno.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Baccarat.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VeSoundSystem.cpp">
+      <Filter>Classes\AudioSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VeSoundData.cpp">
+      <Filter>Classes\AudioSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Course.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Client.cpp">
+      <Filter>Classes\NetWork\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\ServerAgent.cpp">
+      <Filter>Classes\NetWork\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\General\General.cpp">
+      <Filter>Classes\NetWork\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\EntityC.cpp">
+      <Filter>Classes\NetWork\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TexasPokerHallAgentC.cpp">
+      <Filter>Classes\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TexasPokerHallClient.cpp">
+      <Filter>Classes\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TexasPokerHallPlayerC.cpp">
+      <Filter>Classes\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NativeInterface.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Classes\ServerDefine\TexasPokerHall.xml">
+      <Filter>Classes\NetWork\ServerDefine</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

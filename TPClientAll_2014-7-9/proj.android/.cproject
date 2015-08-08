@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.android.toolchain.gcc.1098120582">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.1098120582" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="TexasPoker" buildProperties="" description="" id="com.android.toolchain.gcc.1098120582" name="Debug" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.1098120582.1924602132" name="/" resourcePath="">
+						<toolChain id="com.android.toolchain.gcc.1037513234" name="com.android.toolchain.gcc">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.1152841358" name="Android Platform" osList="all"/>
+							<builder arguments="${NDK_BUILD} ${TEXAS_POKER_MODULE_PATH} Configuration=Debug NDK_DEBUG=1 CPU=armeabi" command="${BASH}" id="com.android.builder.2055681461" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="false">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="libs"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1184611586" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1204666920" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.337641503" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.658600039" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.1310154465" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.1237124828" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/CocosDenshion/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx/kazmath/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx/platform/android}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx/platform/third_party/android/prebuilt/libcurl/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/CLASSES/NetEngine}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1213194642" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.android.toolchain.gcc.1098120582.635725706" name="TexasPoker.h" rcbsApplicability="disable" resourcePath="CLASSES/TexasPoker.h" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.android.toolchain.gcc.1098120582.1993446823">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.1098120582.1993446823" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="com.android.toolchain.gcc.1098120582.1993446823" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.1098120582.1993446823." name="/" resourcePath="">
+						<toolChain id="com.android.toolchain.gcc.1766499827" name="com.android.toolchain.gcc">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.1468311884" name="Android Platform" osList="all"/>
+							<builder arguments="${NDK_BUILD} ${TEXAS_POKER_MODULE_PATH} Configuration=Release CPU=armeabi" command="${BASH}" id="com.android.builder.1606263117" incrementalBuildTarget="all" keepEnvironmentInBuildfile="false" managedBuildOn="false">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="libs"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1656879017" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.668491530" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1507485789" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.151964129" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.348211047" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.695767766" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/CocosDenshion/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx/kazmath/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx/platform/android}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/COCOS2DX/cocos2dx/platform/third_party/android/prebuilt/libcurl/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/VE_POWER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TexasPoker/CLASSES/NetEngine}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1870283942" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="jni"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="TexasPoker.null.1411214817" name="TexasPoker"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/TexasPoker"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/TexasPoker"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1098120582.1993446823;com.android.toolchain.gcc.1098120582.1993446823.;com.android.tool.compiler.g++.8532507;com.android.tool.compiler.g++.input.1226278628">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1098120582.1993446823;com.android.toolchain.gcc.1098120582.1993446823.;com.android.tool.compiler.c.1845379870;com.android.tool.compiler.c.input.1774304634">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1098120582;com.android.toolchain.gcc.1098120582.1924602132;com.android.tool.compiler.c.1754056353;com.android.tool.compiler.c.input.1305174030">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.1098120582;com.android.toolchain.gcc.1098120582.1924602132;com.android.tool.compiler.g++.1406463795;com.android.tool.compiler.g++.input.1514637275">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
