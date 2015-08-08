@@ -1,0 +1,73 @@
+﻿生成启动时间为 2014/4/12 19:34:37。
+     1>项目“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\zziplib\zziplib.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\zziplib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Externals\zziplib /I..\..\..\..\Externals\zlib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _DEBUG /D _LIB /D VE_CPU_X86 /D VE_PLATFORM_WIN /D VE_MEM_DEBUG /D VE_DEBUG /D VE_STATIC_LIB /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\\" /Fd"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\vc100.pdb" /Gd /TC /wd4996 /wd4267 /wd4244 /wd4028 /wd4013 /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Externals\zziplib\dir.c ..\..\..\..\Externals\zziplib\err.c ..\..\..\..\Externals\zziplib\fetch.c ..\..\..\..\Externals\zziplib\file.c ..\..\..\..\Externals\zziplib\fseeko.c ..\..\..\..\Externals\zziplib\info.c ..\..\..\..\Externals\zziplib\memdisk.c ..\..\..\..\Externals\zziplib\mmapped.c ..\..\..\..\Externals\zziplib\plugin.c ..\..\..\..\Externals\zziplib\stat.c ..\..\..\..\Externals\zziplib\write.c ..\..\..\..\Externals\zziplib\zip.c
+         zip.c
+         write.c
+         stat.c
+         plugin.c
+         mmapped.c
+         memdisk.c
+         info.c
+         fseeko.c
+         file.c
+         fetch.c
+         err.c
+         dir.c
+         正在生成代码...
+       Lib:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\zziplib.lib" /NOLOGO C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\dir.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\err.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\fetch.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\file.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\fseeko.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\info.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\memdisk.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\mmapped.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\plugin.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\stat.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\write.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\zip.obj
+         zziplib.vcxproj -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\zziplib.lib
+       PostBuildEvent:
+         Description: Copying zziplib files to SDK
+         call C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\\CopyExternalsToSDK.bat zziplib VC100 Win32 Debug
+         :VCEnd
+         (Creating SDK directories)
+         (only copying new or modified files)
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\autoconf.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\autoconf.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\conf.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\conf.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\fetch.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\fetch.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\file.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\file.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\format.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\format.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\fseeko.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\fseeko.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\info.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\info.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\lib.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\lib.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\memdisk.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\memdisk.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\mmapped.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\mmapped.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\plugin.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\plugin.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\stdint.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\stdint.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\types.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\types.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\write.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\write.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\zzip.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\zzip.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\zzip32.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\zzip32.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\_config.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\_config.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\_msvc.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\_msvc.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\__debug.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\__debug.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\__dirent.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\__dirent.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\__fnmatch.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\__fnmatch.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\__hints.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\__hints.h
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Externals\zziplib\zziplib\__mmap.h -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Include\Externals\zziplib\__mmap.h
+         复制了 23 个文件
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Binaries\Windows\VC100\Win32\Debug\zziplib.lib -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\Windows\VC100\Win32\Debug\zziplib.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\zziplib.unsuccessfulbuild”。
+         正在对“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\..\..\..\Binaries\Windows\VC100\Win32\Debug\Externals\zziplib\zziplib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\Windows\VC100\zziplib\zziplib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.38

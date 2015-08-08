@@ -1,0 +1,24 @@
+<ShaderConfig>
+	<Group>
+		<Sample src="Sample.hlsl" entry="VeMainVS">
+			<Profile value="vs_5_0"/>
+			<Profile value="vs_4_0"/>
+			<Macro name="HIGH" define="1"/>
+			<Macro name="TEST" define="1"/>
+		</Sample>
+		<Sample src="Sample.hlsl" entry="VeMainPS">
+			<Profile value="ps_5_0"/>
+			<Profile value="ps_4_0"/>
+		</Sample>
+		<Quad src="Sample.hlsl" entry="VeQuadVS">
+			<Profile value="vs_5_0"/>
+			<Profile value="vs_4_0"/>
+			<Macro name="HIGH" define="1"/>
+			<Macro name="TEST" define="1"/>
+		</Quad>
+		<Quad src="Sample.hlsl" entry="VeQuadPS">
+			<Profile value="ps_5_0"/>
+			<Profile value="ps_4_0"/>
+		</Quad>
+	</Group>
+</ShaderConfig>

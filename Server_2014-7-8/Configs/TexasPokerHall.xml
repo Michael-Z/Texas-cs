@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TexasPokerHall>
+	<Server>
+		<Version>1.1.0</Version>
+		<ServerPort>44000</ServerPort>
+		<Password>TexasPokerHall</Password>
+		<MaxConnections>10000</MaxConnections>
+		<TimeOut>15000</TimeOut>
+	</Server>
+	<DBLink1>
+		<Account>sa</Account>
+    <Password>123456</Password>
+    <DBSource>Texas</DBSource>
+  </DBLink1>
+  <DBLink>
+    <Account>sa</Account>
+		<Password>123456</Password>
+		<DBSource>Texas</DBSource>
+	</DBLink>
+	<Rooms>
+		<Room type="0" min="20000" max="100000" bb="2000" sb="1000"/>
+		<Room type="1" min="200" max="1000" bb="20" sb="10" hot="true"/>
+		<Room type="3" min="400" max="3000" bb="20" sb="10" vip="true" hot="true"/>
+		<Room type="1" min="2000" max="10000" bb="200" sb="100"/>
+		<Room type="3" min="4000" max="30000" bb="200" sb="100" vip="true"/>
+		<Room type="1" min="20000" max="100000" bb="2000" sb="1000"/>
+		<Room type="3" min="40000" max="300000" bb="2000" sb="1000" vip="true"/>
+		<Room type="1" min="200000" max="1000000" bb="20000" sb="10000"/>
+		<Room type="3" min="400000" max="3000000" bb="20000" sb="10000" vip="true"/>
+		<Room type="1" min="20" max="100" bb="2" sb="1"/>
+		<Room type="3" min="40" max="300" bb="2" sb="1" vip="true"/>
+	</Rooms>
+	<ObjPrice>
+		<Obj price="10000"/>
+		<Obj price="50000"/>
+		<Obj price="100000"/>
+		<Obj price="500000"/>
+	</ObjPrice>
+	<DrinkPrice>
+		<Drink price="15"/>
+		<Drink price="20"/>
+		<Drink price="6"/>
+		<Drink price="10"/>
+		<Drink price="15"/>
+		<Drink price="15"/>
+		<Drink price="18"/>
+		<Drink price="10"/>
+		<Drink price="8"/>
+		<Drink price="5"/>
+		<Drink price="10"/>
+		<Drink price="6"/>
+		<Drink price="4"/>
+		<Drink price="10"/>
+		<Drink price="12"/>
+		<Drink price="15"/>
+		<Drink price="25"/>
+		<Drink price="15"/>
+		<Drink price="30"/>
+		<Drink price="18"/>
+	</DrinkPrice>
+	<BankCardExpire value="8640000"/>
+	<BonusCard>
+		<Bonus value="1000" purchase="10000"/>
+		<Bonus value="2000" purchase="50000"/>
+		<Bonus value="4000" purchase="250000"/>
+		<Bonus value="8000" purchase="1250000"/>
+		<Bonus value="16000" purchase="6250000"/>
+	</BonusCard>
+	<KenoIssuePeriod value="60000"/>
+	<KenoWin>
+		<Win rate="0"/>
+		<Win rate="0"/>
+		<Win rate="0"/>
+		<Win rate="0"/>
+		<Win rate="2"/>
+		<Win rate="5"/>
+		<Win rate="12"/>
+		<Win rate="50"/>
+		<Win rate="300"/>
+		<Win rate="2500"/>
+		<Win rate="20000"/>
+	</KenoWin>
+	<BaccaratPeriod value="3000"/>
+	<PurchaseChannel>
+		<MM>
+			<Price value="200" purchase="100" chips="10000"/>
+			<Price value="500" purchase="250" chips="30000"/>
+			<Price value="1000" purchase="500" chips="70000"/>
+			<Price value="2000" purchase="1000" chips="160000"/>
+			<Price value="3000" purchase="1500" chips="270000"/>
+		</MM>
+		<APPSTORE>
+			<Price value="1" purchase="400" chips="40000"/>
+			<Price value="2" purchase="800" chips="90000"/>
+			<Price value="3" purchase="1600" chips="180000"/>
+			<Price value="4" purchase="3200" chips="350000"/>
+			<Price value="5" purchase="8800" chips="900000"/>
+			<Price value="6" purchase="18000" chips="2000000"/>
+			<Price value="7" purchase="45000" chips="8000000"/>
+		</APPSTORE>
+	</PurchaseChannel>
+	<Vip once_purchase="500" total_purchase="1000"/>
+</TexasPokerHall>

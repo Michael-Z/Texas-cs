@@ -1,0 +1,8 @@
+uniform lowp sampler2D uPSTexture;
+
+varying highp vec2 vTexcoord0;
+
+void main (void)
+{
+	gl_FragColor = texture2D(uPSTexture, vTexcoord0);
+}

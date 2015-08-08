@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D52161DB-F1D8-4B29-93B9-18B1A83D3B47}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TexasPokerRobot</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Venus3D\Builds\Windows\VC100\Property Sheets\VeUserDebug32.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Venus3D\Builds\Windows\VC100\Property Sheets\VeUserRelease32.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\Common\Client;..\Common\NetCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;VePower.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>xcopy /D /F /I /R /Y $(VENUS3D_PATH)\SDK\Windows\VC$(PlatformToolsetVersion)\$(PlatformName)\$(Configuration)\*.dll $(OutDir)
+xcopy /D /F /I /R /Y $(VENUS3D_PATH)\SDK\Windows\VC$(PlatformToolsetVersion)\$(PlatformName)\$(Configuration)\*.pdb $(OutDir)
+xcopy /D /F /I /R /Y $(VENUS3D_PATH)\SDK\Windows\VC$(PlatformToolsetVersion)\$(PlatformName)\$(Configuration)\*.lib $(OutDir)</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\Common\Client;..\Common\NetCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ws2_32.lib;VePower.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>xcopy /D /F /I /R /Y $(VENUS3D_PATH)\SDK\Windows\VC$(PlatformToolsetVersion)\$(PlatformName)\$(Configuration)\*.dll $(OutDir)
+xcopy /D /F /I /R /Y $(VENUS3D_PATH)\SDK\Windows\VC$(PlatformToolsetVersion)\$(PlatformName)\$(Configuration)\*.pdb $(OutDir)
+xcopy /D /F /I /R /Y $(VENUS3D_PATH)\SDK\Windows\VC$(PlatformToolsetVersion)\$(PlatformName)\$(Configuration)\*.lib $(OutDir)</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\Client\Client.cpp" />
+    <ClCompile Include="..\Common\NetCore\BitStream.cpp" />
+    <ClCompile Include="..\Common\NetCore\CCVENetSlidingWindow.cpp" />
+    <ClCompile Include="..\Common\NetCore\CCVENetUDT.cpp" />
+    <ClCompile Include="..\Common\NetCore\CheckSum.cpp" />
+    <ClCompile Include="..\Common\NetCore\CommandParserInterface.cpp" />
+    <ClCompile Include="..\Common\NetCore\ConnectionGraph2.cpp" />
+    <ClCompile Include="..\Common\NetCore\DataCompressor.cpp" />
+    <ClCompile Include="..\Common\NetCore\DS_BytePool.cpp" />
+    <ClCompile Include="..\Common\NetCore\DS_ByteQueue.cpp" />
+    <ClCompile Include="..\Common\NetCore\DS_HuffmanEncodingTree.cpp" />
+    <ClCompile Include="..\Common\NetCore\DS_Table.cpp" />
+    <ClCompile Include="..\Common\NetCore\EpochTimeToString.cpp" />
+    <ClCompile Include="..\Common\NetCore\FormatString.cpp" />
+    <ClCompile Include="..\Common\NetCore\FullyConnectedMesh2.cpp" />
+    <ClCompile Include="..\Common\NetCore\Getche.cpp" />
+    <ClCompile Include="..\Common\NetCore\Gets.cpp" />
+    <ClCompile Include="..\Common\NetCore\GetTime.cpp" />
+    <ClCompile Include="..\Common\NetCore\gettimeofday.cpp" />
+    <ClCompile Include="..\Common\NetCore\GridSectorizer.cpp" />
+    <ClCompile Include="..\Common\NetCore\HTTPConnection.cpp" />
+    <ClCompile Include="..\Common\NetCore\Itoa.cpp" />
+    <ClCompile Include="..\Common\NetCore\LinuxStrings.cpp" />
+    <ClCompile Include="..\Common\NetCore\LocklessTypes.cpp" />
+    <ClCompile Include="..\Common\NetCore\LogCommandParser.cpp" />
+    <ClCompile Include="..\Common\NetCore\MessageFilter.cpp" />
+    <ClCompile Include="..\Common\NetCore\NetworkIDManager.cpp" />
+    <ClCompile Include="..\Common\NetCore\NetworkIDObject.cpp" />
+    <ClCompile Include="..\Common\NetCore\PacketConsoleLogger.cpp" />
+    <ClCompile Include="..\Common\NetCore\PacketFileLogger.cpp" />
+    <ClCompile Include="..\Common\NetCore\PacketizedTCP.cpp" />
+    <ClCompile Include="..\Common\NetCore\PacketLogger.cpp" />
+    <ClCompile Include="..\Common\NetCore\PacketOutputWindowLogger.cpp" />
+    <ClCompile Include="..\Common\NetCore\PluginInterface2.cpp" />
+    <ClCompile Include="..\Common\NetCore\Rackspace.cpp" />
+    <ClCompile Include="..\Common\NetCore\Rand.cpp" />
+    <ClCompile Include="..\Common\NetCore\rdlmalloc.cpp" />
+    <ClCompile Include="..\Common\NetCore\ReadyEvent.cpp" />
+    <ClCompile Include="..\Common\NetCore\ReliabilityLayer.cpp" />
+    <ClCompile Include="..\Common\NetCore\ReplicaManager3.cpp" />
+    <ClCompile Include="..\Common\NetCore\RPC4Plugin.cpp" />
+    <ClCompile Include="..\Common\NetCore\SecureHandshake.cpp" />
+    <ClCompile Include="..\Common\NetCore\SendToThread.cpp" />
+    <ClCompile Include="..\Common\NetCore\SHA1.cpp" />
+    <ClCompile Include="..\Common\NetCore\SignaledEvent.cpp" />
+    <ClCompile Include="..\Common\NetCore\SimpleMutex.cpp" />
+    <ClCompile Include="..\Common\NetCore\SocketLayer.cpp" />
+    <ClCompile Include="..\Common\NetCore\StatisticsHistory.cpp" />
+    <ClCompile Include="..\Common\NetCore\StringCompressor.cpp" />
+    <ClCompile Include="..\Common\NetCore\StringTable.cpp" />
+    <ClCompile Include="..\Common\NetCore\SuperFastHash.cpp" />
+    <ClCompile Include="..\Common\NetCore\TableSerializer.cpp" />
+    <ClCompile Include="..\Common\NetCore\TCPInterface.cpp" />
+    <ClCompile Include="..\Common\NetCore\TeamBalancer.cpp" />
+    <ClCompile Include="..\Common\NetCore\TeamManager.cpp" />
+    <ClCompile Include="..\Common\NetCore\ThreadsafePacketLogger.cpp" />
+    <ClCompile Include="..\Common\NetCore\TwoWayAuthentication.cpp" />
+    <ClCompile Include="..\Common\NetCore\UDPForwarder.cpp" />
+    <ClCompile Include="..\Common\NetCore\UDPProxyClient.cpp" />
+    <ClCompile Include="..\Common\NetCore\UDPProxyCoordinator.cpp" />
+    <ClCompile Include="..\Common\NetCore\UDPProxyServer.cpp" />
+    <ClCompile Include="..\Common\NetCore\VariableDeltaSerializer.cpp" />
+    <ClCompile Include="..\Common\NetCore\VariableListDeltaTracker.cpp" />
+    <ClCompile Include="..\Common\NetCore\VariadicSQLParser.cpp" />
+    <ClCompile Include="..\Common\NetCore\VEMemoryOverride.cpp" />
+    <ClCompile Include="..\Common\NetCore\VENetCommandParser.cpp" />
+    <ClCompile Include="..\Common\NetCore\VENetSocket.cpp" />
+    <ClCompile Include="..\Common\NetCore\VENetStatistics.cpp" />
+    <ClCompile Include="..\Common\NetCore\VENetTransport2.cpp" />
+    <ClCompile Include="..\Common\NetCore\VENetTypes.cpp" />
+    <ClCompile Include="..\Common\NetCore\VEPeer.cpp" />
+    <ClCompile Include="..\Common\NetCore\VESleep.cpp" />
+    <ClCompile Include="..\Common\NetCore\VEString.cpp" />
+    <ClCompile Include="..\Common\NetCore\VEThread.cpp" />
+    <ClCompile Include="..\Common\NetCore\VEWString.cpp" />
+    <ClCompile Include="..\Common\NetCore\VitaIncludes.cpp" />
+    <ClCompile Include="..\Common\NetCore\WSAStartupSingleton.cpp" />
+    <ClCompile Include="..\Common\NetCore\_FindFirst.cpp" />
+    <ClCompile Include="TexasPokerRobot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\Client\Client.h" />
+    <ClInclude Include="..\Common\NetCore\BitStream.h" />
+    <ClInclude Include="..\Common\NetCore\CCVENetSlidingWindow.h" />
+    <ClInclude Include="..\Common\NetCore\CCVENetUDT.h" />
+    <ClInclude Include="..\Common\NetCore\CheckSum.h" />
+    <ClInclude Include="..\Common\NetCore\CommandParserInterface.h" />
+    <ClInclude Include="..\Common\NetCore\ConnectionGraph2.h" />
+    <ClInclude Include="..\Common\NetCore\DataCompressor.h" />
+    <ClInclude Include="..\Common\NetCore\DS_BPlusTree.h" />
+    <ClInclude Include="..\Common\NetCore\DS_BytePool.h" />
+    <ClInclude Include="..\Common\NetCore\DS_ByteQueue.h" />
+    <ClInclude Include="..\Common\NetCore\DS_Hash.h" />
+    <ClInclude Include="..\Common\NetCore\DS_Heap.h" />
+    <ClInclude Include="..\Common\NetCore\DS_HuffmanEncodingTree.h" />
+    <ClInclude Include="..\Common\NetCore\DS_HuffmanEncodingTreeFactory.h" />
+    <ClInclude Include="..\Common\NetCore\DS_HuffmanEncodingTreeNode.h" />
+    <ClInclude Include="..\Common\NetCore\DS_LinkedList.h" />
+    <ClInclude Include="..\Common\NetCore\DS_List.h" />
+    <ClInclude Include="..\Common\NetCore\DS_Map.h" />
+    <ClInclude Include="..\Common\NetCore\DS_MemoryPool.h" />
+    <ClInclude Include="..\Common\NetCore\DS_Multilist.h" />
+    <ClInclude Include="..\Common\NetCore\DS_OrderedChannelHeap.h" />
+    <ClInclude Include="..\Common\NetCore\DS_OrderedList.h" />
+    <ClInclude Include="..\Common\NetCore\DS_Queue.h" />
+    <ClInclude Include="..\Common\NetCore\DS_QueueLinkedList.h" />
+    <ClInclude Include="..\Common\NetCore\DS_RangeList.h" />
+    <ClInclude Include="..\Common\NetCore\DS_Table.h" />
+    <ClInclude Include="..\Common\NetCore\DS_ThreadsafeAllocatingQueue.h" />
+    <ClInclude Include="..\Common\NetCore\DS_Tree.h" />
+    <ClInclude Include="..\Common\NetCore\DS_WeightedGraph.h" />
+    <ClInclude Include="..\Common\NetCore\EpochTimeToString.h" />
+    <ClInclude Include="..\Common\NetCore\Export.h" />
+    <ClInclude Include="..\Common\NetCore\FormatString.h" />
+    <ClInclude Include="..\Common\NetCore\FullyConnectedMesh2.h" />
+    <ClInclude Include="..\Common\NetCore\Getche.h" />
+    <ClInclude Include="..\Common\NetCore\Gets.h" />
+    <ClInclude Include="..\Common\NetCore\GetTime.h" />
+    <ClInclude Include="..\Common\NetCore\gettimeofday.h" />
+    <ClInclude Include="..\Common\NetCore\GridSectorizer.h" />
+    <ClInclude Include="..\Common\NetCore\HTTPConnection.h" />
+    <ClInclude Include="..\Common\NetCore\InternalPacket.h" />
+    <ClInclude Include="..\Common\NetCore\Itoa.h" />
+    <ClInclude Include="..\Common\NetCore\Kbhit.h" />
+    <ClInclude Include="..\Common\NetCore\LinuxStrings.h" />
+    <ClInclude Include="..\Common\NetCore\LocklessTypes.h" />
+    <ClInclude Include="..\Common\NetCore\LogCommandParser.h" />
+    <ClInclude Include="..\Common\NetCore\MessageFilter.h" />
+    <ClInclude Include="..\Common\NetCore\MessageIdentifiers.h" />
+    <ClInclude Include="..\Common\NetCore\MTUSize.h" />
+    <ClInclude Include="..\Common\NetCore\NativeFeatureIncludes.h" />
+    <ClInclude Include="..\Common\NetCore\NativeFeatureIncludesOverrides.h" />
+    <ClInclude Include="..\Common\NetCore\NativeTypes.h" />
+    <ClInclude Include="..\Common\NetCore\NetworkIDManager.h" />
+    <ClInclude Include="..\Common\NetCore\NetworkIDObject.h" />
+    <ClInclude Include="..\Common\NetCore\PacketConsoleLogger.h" />
+    <ClInclude Include="..\Common\NetCore\PacketFileLogger.h" />
+    <ClInclude Include="..\Common\NetCore\PacketizedTCP.h" />
+    <ClInclude Include="..\Common\NetCore\PacketLogger.h" />
+    <ClInclude Include="..\Common\NetCore\PacketOutputWindowLogger.h" />
+    <ClInclude Include="..\Common\NetCore\PacketPriority.h" />
+    <ClInclude Include="..\Common\NetCore\PluginInterface2.h" />
+    <ClInclude Include="..\Common\NetCore\Rackspace.h" />
+    <ClInclude Include="..\Common\NetCore\Rand.h" />
+    <ClInclude Include="..\Common\NetCore\rdlmalloc-options.h" />
+    <ClInclude Include="..\Common\NetCore\rdlmalloc.h" />
+    <ClInclude Include="..\Common\NetCore\ReadyEvent.h" />
+    <ClInclude Include="..\Common\NetCore\RefCountedObj.h" />
+    <ClInclude Include="..\Common\NetCore\ReliabilityLayer.h" />
+    <ClInclude Include="..\Common\NetCore\ReplicaEnums.h" />
+    <ClInclude Include="..\Common\NetCore\ReplicaManager3.h" />
+    <ClInclude Include="..\Common\NetCore\RPC4Plugin.h" />
+    <ClInclude Include="..\Common\NetCore\SecureHandshake.h" />
+    <ClInclude Include="..\Common\NetCore\SendToThread.h" />
+    <ClInclude Include="..\Common\NetCore\SHA1.h" />
+    <ClInclude Include="..\Common\NetCore\SignaledEvent.h" />
+    <ClInclude Include="..\Common\NetCore\SimpleMutex.h" />
+    <ClInclude Include="..\Common\NetCore\SingleProducerConsumer.h" />
+    <ClInclude Include="..\Common\NetCore\SocketDefines.h" />
+    <ClInclude Include="..\Common\NetCore\SocketIncludes.h" />
+    <ClInclude Include="..\Common\NetCore\SocketLayer.h" />
+    <ClInclude Include="..\Common\NetCore\StatisticsHistory.h" />
+    <ClInclude Include="..\Common\NetCore\StringCompressor.h" />
+    <ClInclude Include="..\Common\NetCore\StringTable.h" />
+    <ClInclude Include="..\Common\NetCore\SuperFastHash.h" />
+    <ClInclude Include="..\Common\NetCore\TableSerializer.h" />
+    <ClInclude Include="..\Common\NetCore\TCPInterface.h" />
+    <ClInclude Include="..\Common\NetCore\TeamBalancer.h" />
+    <ClInclude Include="..\Common\NetCore\TeamManager.h" />
+    <ClInclude Include="..\Common\NetCore\ThreadPool.h" />
+    <ClInclude Include="..\Common\NetCore\ThreadsafePacketLogger.h" />
+    <ClInclude Include="..\Common\NetCore\TransportInterface.h" />
+    <ClInclude Include="..\Common\NetCore\TwoWayAuthentication.h" />
+    <ClInclude Include="..\Common\NetCore\UDPForwarder.h" />
+    <ClInclude Include="..\Common\NetCore\UDPProxyClient.h" />
+    <ClInclude Include="..\Common\NetCore\UDPProxyCommon.h" />
+    <ClInclude Include="..\Common\NetCore\UDPProxyCoordinator.h" />
+    <ClInclude Include="..\Common\NetCore\UDPProxyServer.h" />
+    <ClInclude Include="..\Common\NetCore\VariableDeltaSerializer.h" />
+    <ClInclude Include="..\Common\NetCore\VariableListDeltaTracker.h" />
+    <ClInclude Include="..\Common\NetCore\VariadicSQLParser.h" />
+    <ClInclude Include="..\Common\NetCore\VEAlloca.h" />
+    <ClInclude Include="..\Common\NetCore\VEAssert.h" />
+    <ClInclude Include="..\Common\NetCore\VEMemoryOverride.h" />
+    <ClInclude Include="..\Common\NetCore\VENetCommandParser.h" />
+    <ClInclude Include="..\Common\NetCore\VENetDefines.h" />
+    <ClInclude Include="..\Common\NetCore\VENetSmartPtr.h" />
+    <ClInclude Include="..\Common\NetCore\VENetSocket.h" />
+    <ClInclude Include="..\Common\NetCore\VENetStatistics.h" />
+    <ClInclude Include="..\Common\NetCore\VENetTime.h" />
+    <ClInclude Include="..\Common\NetCore\VENetTransport2.h" />
+    <ClInclude Include="..\Common\NetCore\VENetTypes.h" />
+    <ClInclude Include="..\Common\NetCore\VENetVersion.h" />
+    <ClInclude Include="..\Common\NetCore\VEPeer.h" />
+    <ClInclude Include="..\Common\NetCore\VEPeerInterface.h" />
+    <ClInclude Include="..\Common\NetCore\VESleep.h" />
+    <ClInclude Include="..\Common\NetCore\VEString.h" />
+    <ClInclude Include="..\Common\NetCore\VEThread.h" />
+    <ClInclude Include="..\Common\NetCore\VEWString.h" />
+    <ClInclude Include="..\Common\NetCore\VitaIncludes.h" />
+    <ClInclude Include="..\Common\NetCore\WindowsIncludes.h" />
+    <ClInclude Include="..\Common\NetCore\WSAStartupSingleton.h" />
+    <ClInclude Include="..\Common\NetCore\_FindFirst.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

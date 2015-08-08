@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{08858960-7b68-47c6-8c36-ecfafdab8abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\NetCore">
+      <UniqueIdentifier>{adaa1997-c05b-4911-8af6-7f85362f4a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Server">
+      <UniqueIdentifier>{ef08dfa9-8ae3-49db-916a-678046ba7f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TexasPokerHall">
+      <UniqueIdentifier>{f49cda86-bdec-4373-bbd3-3be4b93a2a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\General">
+      <UniqueIdentifier>{b14fc53e-2b7e-4acb-a20a-bf4a7e8ba3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerDefine">
+      <UniqueIdentifier>{f8306c9e-77b7-41ff-97e1-b5b1ce084f8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\NetCore\_FindFirst.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\BitStream.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\CCVENetSlidingWindow.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\CCVENetUDT.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\CheckSum.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\CommandParserInterface.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\ConnectionGraph2.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DataCompressor.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_BPlusTree.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_BytePool.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_ByteQueue.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_Hash.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_Heap.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_HuffmanEncodingTree.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_HuffmanEncodingTreeNode.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_LinkedList.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_List.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_Map.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_MemoryPool.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_Multilist.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_OrderedChannelHeap.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_OrderedList.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_Queue.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_QueueLinkedList.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_RangeList.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_Table.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_Tree.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\DS_WeightedGraph.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\EpochTimeToString.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\Export.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\FormatString.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\FullyConnectedMesh2.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\Getche.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\Gets.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\GetTime.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\gettimeofday.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\GridSectorizer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\HTTPConnection.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\InternalPacket.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\Itoa.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\Kbhit.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\LinuxStrings.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\LocklessTypes.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\LogCommandParser.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\MessageFilter.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\MessageIdentifiers.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\MTUSize.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\NativeFeatureIncludes.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\NativeFeatureIncludesOverrides.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\NativeTypes.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\NetworkIDManager.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\NetworkIDObject.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\PacketConsoleLogger.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\PacketFileLogger.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\PacketizedTCP.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\PacketLogger.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\PacketOutputWindowLogger.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\PacketPriority.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\PluginInterface2.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\Rackspace.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\Rand.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\rdlmalloc.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\rdlmalloc-options.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\ReadyEvent.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\RefCountedObj.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\ReliabilityLayer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\ReplicaEnums.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\ReplicaManager3.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\RPC4Plugin.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SecureHandshake.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SendToThread.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SHA1.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SignaledEvent.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SimpleMutex.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SingleProducerConsumer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SocketDefines.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SocketIncludes.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SocketLayer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\StatisticsHistory.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\StringCompressor.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\StringTable.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\SuperFastHash.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\TableSerializer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\TCPInterface.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\TeamBalancer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\TeamManager.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\ThreadPool.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\ThreadsafePacketLogger.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\TransportInterface.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\TwoWayAuthentication.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\UDPForwarder.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\UDPProxyClient.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\UDPProxyCommon.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\UDPProxyCoordinator.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\UDPProxyServer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VariableDeltaSerializer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VariableListDeltaTracker.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VariadicSQLParser.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VEAlloca.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VEAssert.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VEMemoryOverride.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetCommandParser.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetDefines.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetSmartPtr.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetSocket.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetStatistics.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetTime.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetTransport2.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetTypes.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VENetVersion.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VEPeer.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VEPeerInterface.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VESleep.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VEString.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VEThread.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VEWString.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\VitaIncludes.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\WindowsIncludes.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetCore\WSAStartupSingleton.h">
+      <Filter>Common\NetCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Server\Server.h">
+      <Filter>Common\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Server\ClientAgent.h">
+      <Filter>Common\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\General\General.h">
+      <Filter>Common\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Server\EntityS.h">
+      <Filter>Common\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Server\DBBusiness.h">
+      <Filter>Common\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Server\SQLServerInterface.h">
+      <Filter>Common\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="TexasPokerHallAgentS.h">
+      <Filter>TexasPokerHall</Filter>
+    </ClInclude>
+    <ClInclude Include="TexasPokerHallPlayerS.h">
+      <Filter>TexasPokerHall</Filter>
+    </ClInclude>
+    <ClInclude Include="TexasPokerHallServer.h">
+      <Filter>TexasPokerHall</Filter>
+    </ClInclude>
+    <ClInclude Include="TexasPokerTable.h">
+      <Filter>TexasPokerHall</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\NetCore\_FindFirst.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\BitStream.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\CCVENetSlidingWindow.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\CCVENetUDT.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\CheckSum.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\CommandParserInterface.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\ConnectionGraph2.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\DataCompressor.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\DS_BytePool.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\DS_ByteQueue.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\DS_HuffmanEncodingTree.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\DS_Table.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\EpochTimeToString.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\FormatString.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\FullyConnectedMesh2.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\Getche.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\Gets.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\GetTime.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\gettimeofday.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\GridSectorizer.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\HTTPConnection.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\Itoa.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\LinuxStrings.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\LocklessTypes.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\LogCommandParser.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\MessageFilter.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\NetworkIDManager.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\NetworkIDObject.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\PacketConsoleLogger.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\PacketFileLogger.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\PacketizedTCP.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\PacketLogger.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\PacketOutputWindowLogger.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\PluginInterface2.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\Rackspace.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\Rand.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\rdlmalloc.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\ReadyEvent.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\ReliabilityLayer.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\ReplicaManager3.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\RPC4Plugin.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\SecureHandshake.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\SendToThread.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\SHA1.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\SignaledEvent.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\SimpleMutex.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\SocketLayer.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\StatisticsHistory.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\StringCompressor.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\StringTable.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\SuperFastHash.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\TableSerializer.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\TCPInterface.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\TeamBalancer.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\TeamManager.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\ThreadsafePacketLogger.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\TwoWayAuthentication.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\UDPForwarder.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\UDPProxyClient.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\UDPProxyCoordinator.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\UDPProxyServer.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VariableDeltaSerializer.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VariableListDeltaTracker.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VariadicSQLParser.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VEMemoryOverride.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VENetCommandParser.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VENetSocket.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VENetStatistics.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VENetTransport2.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VENetTypes.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VEPeer.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VESleep.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VEString.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VEThread.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VEWString.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\VitaIncludes.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetCore\WSAStartupSingleton.cpp">
+      <Filter>Common\NetCore</Filter>
+    </ClCompile>
+    <ClCompile Include="TexasPokerHall.cpp">
+      <Filter>TexasPokerHall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Server\Server.cpp">
+      <Filter>Common\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Server\ClientAgent.cpp">
+      <Filter>Common\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\General\General.cpp">
+      <Filter>Common\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Server\EntityS.cpp">
+      <Filter>Common\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Server\DBBusiness.cpp">
+      <Filter>Common\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Server\SQLServerInterface.cpp">
+      <Filter>Common\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="TexasPokerHallAgentS.cpp">
+      <Filter>TexasPokerHall</Filter>
+    </ClCompile>
+    <ClCompile Include="TexasPokerHallPlayerS.cpp">
+      <Filter>TexasPokerHall</Filter>
+    </ClCompile>
+    <ClCompile Include="TexasPokerHallServer.cpp">
+      <Filter>TexasPokerHall</Filter>
+    </ClCompile>
+    <ClCompile Include="TexasPokerTable.cpp">
+      <Filter>TexasPokerHall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ServerDefine\TexasPokerHall.xml">
+      <Filter>ServerDefine</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

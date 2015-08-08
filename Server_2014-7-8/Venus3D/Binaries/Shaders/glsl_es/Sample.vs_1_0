@@ -1,0 +1,22 @@
+attribute highp vec4 aPosition0;
+attribute lowp vec4 aColor0;
+
+uniform highp vec4 uVSCBuffer[6];
+
+varying highp vec4 vColor0;
+
+void main(void)
+{
+	vec4 pos = aPosition0;
+	pos.xyz *= uVSCBuffer[5].w;
+	vec3 uv = cross(uVSCBuffer[4].xyz, pos.xyz);
+	vec3 uuv = cross(uVSCBuffer[4].xyz, uv) * 2.0;
+	uv *= (2.0 * uVSCBuffer[4].w);
+	pos.xyz += uv + uuv;
+	pos.xyz += uVSCBuffer[5].xyz;
+	gl_Position.x = dot(pos, uVSCBuffer[0]);
+	gl_Position.y = dot(pos, uVSCBuffer[1]);
+	gl_Position.z = dot(pos, uVSCBuffer[2]);
+	gl_Position.w = dot(pos, uVSCBuffer[3]);
+	vColor0 = aColor0;
+}

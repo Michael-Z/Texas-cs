@@ -1,0 +1,56 @@
+﻿生成启动时间为 2014/4/12 19:35:57。
+     1>项目“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\zlib\zlib.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\zlib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\TexasPoker\trunk\Venus3D /I\SDK\Include\Externals /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _DEBUG /D _LIB /D VE_MEM_DEBUG /D VE_DEBUG /D VE_STATIC_LIB /D VE_CPU_X86 /D VE_PLATFORM_MOBILE_SIM /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\\" /Fd"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\vc100.pdb" /Gd /TC /wd4996 /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Externals\zlib\adler32.c ..\..\..\..\Externals\zlib\compress.c ..\..\..\..\Externals\zlib\crc32.c ..\..\..\..\Externals\zlib\deflate.c ..\..\..\..\Externals\zlib\gzclose.c ..\..\..\..\Externals\zlib\gzlib.c ..\..\..\..\Externals\zlib\gzread.c ..\..\..\..\Externals\zlib\gzwrite.c ..\..\..\..\Externals\zlib\infback.c ..\..\..\..\Externals\zlib\inffast.c ..\..\..\..\Externals\zlib\inflate.c ..\..\..\..\Externals\zlib\inftrees.c ..\..\..\..\Externals\zlib\trees.c ..\..\..\..\Externals\zlib\uncompr.c ..\..\..\..\Externals\zlib\zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzwrite.c
+         gzread.c
+         gzlib.c
+         gzclose.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         正在生成代码...
+       Lib:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\zlib.lib" /NOLOGO C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\adler32.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\compress.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\crc32.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\deflate.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\gzclose.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\gzlib.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\gzread.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\gzwrite.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\infback.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\inffast.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\inflate.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\inftrees.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\trees.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\uncompr.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\zutil.obj
+         zlib.vcxproj -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\zlib.lib
+       PostBuildEvent:
+         Description: Copying zlib files to SDK
+         call C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\\CopyExternalsToSDK.bat zlib VC100 Debug
+         :VCEnd
+         (Creating SDK directories)
+         (only copying new or modified files)
+         复制了 0 个文件
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Binaries\MobileSim\VC100\Debug\zlib.lib -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\MobileSim\VC100\Debug\zlib.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\zlib.unsuccessfulbuild”。
+         正在对“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zlib\zlib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\zlib\zlib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.82

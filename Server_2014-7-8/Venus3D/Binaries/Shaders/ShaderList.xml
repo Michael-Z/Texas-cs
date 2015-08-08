@@ -1,0 +1,12 @@
+<Shader>
+	<Platform>
+		<VertexShader>
+			<Sample/>
+			<Quad/>
+		</VertexShader>
+		<PixelShader>
+			<Sample/>
+			<Quad/>
+		</PixelShader>
+	</Platform>
+</Shader>

@@ -1,0 +1,32 @@
+<Config>
+	<Windows>
+		<Api>dx11</Api>
+		<WinDock>center</WinDock>
+		<WinStyle>fixed</WinStyle>
+		<FullScreen>false</FullScreen>
+		<MaxScreen>true</MaxScreen>
+		<Resolution>800x600</Resolution>
+		<VerticalSync>true</VerticalSync>
+		<Adapter>0</Adapter>
+		<Output>0</Output>
+		<RefreshRate>60</RefreshRate>
+		<Format>FMT_C8A8</Format>
+		<ShowMaximized>false</ShowMaximized>
+	</Windows>
+	<Linux>
+		<WinDock>center</WinDock>
+		<WinStyle>varible</WinStyle>
+		<FullScreen>false</FullScreen>
+		<MaxScreen>true</MaxScreen>
+		<Resolution>800x600</Resolution>
+		<VerticalSync>true</VerticalSync>
+		<Adapter>0</Adapter>
+		<Output>0</Output>
+		<RefreshRate>60</RefreshRate>
+		<Format>FMT_C8A8</Format>
+	</Linux>
+	<Macosx />
+	<MobSim>
+		<Resolution>960x640</Resolution>
+	</MobSim>
+</Config>

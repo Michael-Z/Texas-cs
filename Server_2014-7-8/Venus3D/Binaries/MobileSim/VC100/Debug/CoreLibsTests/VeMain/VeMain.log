@@ -1,0 +1,75 @@
+﻿生成启动时间为 2014/4/12 19:37:33。
+     1>项目“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\VeMain\VeMain.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeMain.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Source\VePower /I..\..\..\..\Externals\OGLES2\Include /IF:\TexasPoker\trunk\Venus3D /I\SDK\Include\Externals /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D VE_MAIN_EXPORT /D _DEBUG /D _LIB /D VE_MEM_DEBUG /D VE_DEBUG /D VE_DYNAMIC_LIB /D VE_CPU_X86 /D VE_PLATFORM_MOBILE_SIM /D _WINDLL /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yc"VeMainPCH.h" /Fp"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeMain.pch" /Fo"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\\" /Fd"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\vc100.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Source\VeMain\VeMainPCH.cpp
+         VeMainPCH.cpp
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Source\VePower /I..\..\..\..\Externals\OGLES2\Include /IF:\TexasPoker\trunk\Venus3D /I\SDK\Include\Externals /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D VE_MAIN_EXPORT /D _DEBUG /D _LIB /D VE_MEM_DEBUG /D VE_DEBUG /D VE_DYNAMIC_LIB /D VE_CPU_X86 /D VE_PLATFORM_MOBILE_SIM /D _WINDLL /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yu"VeMainPCH.h" /Fp"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeMain.pch" /Fo"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\\" /Fd"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\vc100.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Source\VeMain\gl.cpp ..\..\..\..\Source\VeMain\glx.cpp ..\..\..\..\Source\VeMain\VeApplication.cpp ..\..\..\..\Source\VeMain\VeAudioData.cpp ..\..\..\..\Source\VeMain\VeAudioResource.cpp ..\..\..\..\Source\VeMain\VeAudioSystem.cpp ..\..\..\..\Source\VeMain\VeCamera.cpp ..\..\..\..\Source\VeMain\VeEditorApplication.cpp ..\..\..\..\Source\VeMain\VeInputManager.cpp ..\..\..\..\Source\VeMain\VeJoyStick.cpp ..\..\..\..\Source\VeMain\VeKeyboard.cpp ..\..\..\..\Source\VeMain\VeMain.cpp ..\..\..\..\Source\VeMain\VeMesh.cpp ..\..\..\..\Source\VeMain\VeMouse.cpp ..\..\..\..\Source\VeMain\VeRenderer.cpp ..\..\..\..\Source\VeMain\VeRenderNode.cpp ..\..\..\..\Source\VeMain\VeRenderObject.cpp ..\..\..\..\Source\VeMain\VeRenderResource.cpp ..\..\..\..\Source\VeMain\VeSceneManager.cpp ..\..\..\..\Source\VeMain\VeSceneRenderable.cpp ..\..\..\..\Source\VeMain\VeStartConfig.cpp ..\..\..\..\Source\VeMain\wgl.cpp ..\..\..\..\Source\VeMain\_VeGlLoader.cpp ..\..\..\..\Source\VeMain\_VeRendererD3D11.cpp ..\..\..\..\Source\VeMain\_VeRendererGL.cpp ..\..\..\..\Source\VeMain\_VeRendererGLES2.cpp ..\..\..\..\Source\VeMain\_VeRenderObjectD3D11.cpp ..\..\..\..\Source\VeMain\_VeRenderObjectGLES2.cpp
+         _VeRenderObjectGLES2.cpp
+         _VeRenderObjectD3D11.cpp
+         _VeRendererGLES2.cpp
+         _VeRendererGL.cpp
+         _VeRendererD3D11.cpp
+         _VeGlLoader.cpp
+         wgl.cpp
+         VeStartConfig.cpp
+         VeSceneRenderable.cpp
+         VeSceneManager.cpp
+         VeRenderResource.cpp
+         VeRenderObject.cpp
+         VeRenderNode.cpp
+         VeRenderer.cpp
+         VeMouse.cpp
+         VeMesh.cpp
+         VeMain.cpp
+         VeKeyboard.cpp
+         VeJoyStick.cpp
+         VeInputManager.cpp
+         正在生成代码...
+         正在编译...
+         VeEditorApplication.cpp
+         VeCamera.cpp
+         VeAudioSystem.cpp
+         VeAudioResource.cpp
+         VeAudioData.cpp
+         VeApplication.cpp
+         glx.cpp
+         gl.cpp
+         正在生成代码...
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\VeMain.dll" /NOLOGO /LIBPATH:..\..\..\..\Binaries\MobileSim\VC100\Debug /LIBPATH:..\..\..\..\Externals\OGLES2\WindowsX86\Lib /LIBPATH:..\..\..\..\Externals\D3D11\Lib\Win32 VePower.lib libEGL.lib libGLESv2.lib dinput8.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeMain.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Binaries\MobileSim\VC100\Debug\VeMain.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\VeMain.lib" /MACHINE:X86 /DLL C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\gl.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\glx.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeApplication.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeAudioData.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeAudioResource.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeAudioSystem.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeCamera.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeEditorApplication.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeInputManager.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeJoyStick.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeKeyboard.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeMain.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeMainPCH.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeMesh.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeMouse.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeRenderer.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeRenderNode.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeRenderObject.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeRenderResource.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeSceneManager.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeSceneRenderable.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\VeStartConfig.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\wgl.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\_VeGlLoader.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\_VeRendererD3D11.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\_VeRendererGL.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\_VeRendererGLES2.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\_VeRenderObjectD3D11.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\CoreLibsTests\VeMain\_VeRenderObjectGLES2.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“VePower.lib”
+     1>已完成生成项目“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\VeMain\VeMain.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.04

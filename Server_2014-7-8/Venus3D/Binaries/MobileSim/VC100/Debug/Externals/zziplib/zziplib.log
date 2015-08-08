@@ -1,0 +1,50 @@
+﻿生成启动时间为 2014/4/12 19:36:00。
+     1>项目“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\zziplib\zziplib.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\zziplib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Externals\zziplib /I..\..\..\..\Externals\zlib /IF:\TexasPoker\trunk\Venus3D /I\SDK\Include\Externals /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _DEBUG /D _LIB /D VE_MEM_DEBUG /D VE_DEBUG /D VE_STATIC_LIB /D VE_CPU_X86 /D VE_PLATFORM_MOBILE_SIM /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\\" /Fd"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\vc100.pdb" /Gd /TC /wd4996 /wd4267 /wd4244 /wd4028 /wd4013 /wd4251 /analyze- /errorReport:prompt ..\..\..\..\Externals\zziplib\dir.c ..\..\..\..\Externals\zziplib\err.c ..\..\..\..\Externals\zziplib\fetch.c ..\..\..\..\Externals\zziplib\file.c ..\..\..\..\Externals\zziplib\fseeko.c ..\..\..\..\Externals\zziplib\info.c ..\..\..\..\Externals\zziplib\memdisk.c ..\..\..\..\Externals\zziplib\mmapped.c ..\..\..\..\Externals\zziplib\plugin.c ..\..\..\..\Externals\zziplib\stat.c ..\..\..\..\Externals\zziplib\write.c ..\..\..\..\Externals\zziplib\zip.c
+         zip.c
+         write.c
+         stat.c
+         plugin.c
+         mmapped.c
+         memdisk.c
+         info.c
+         fseeko.c
+         file.c
+         fetch.c
+         err.c
+         dir.c
+         正在生成代码...
+       Lib:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\zziplib.lib" /NOLOGO C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\dir.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\err.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\fetch.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\file.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\fseeko.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\info.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\memdisk.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\mmapped.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\plugin.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\stat.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\write.obj
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\zip.obj
+         zziplib.vcxproj -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\zziplib.lib
+       PostBuildEvent:
+         Description: Copying zziplib files to SDK
+         call C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\\CopyExternalsToSDK.bat zziplib VC100 Debug
+         :VCEnd
+         (Creating SDK directories)
+         (only copying new or modified files)
+         复制了 0 个文件
+         C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Binaries\MobileSim\VC100\Debug\zziplib.lib -> C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\SDK\MobileSim\VC100\Debug\zziplib.lib
+         复制了 1 个文件
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\zziplib.unsuccessfulbuild”。
+         正在对“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\..\..\..\Binaries\MobileSim\VC100\Debug\Externals\zziplib\zziplib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\X200\Desktop\TexasPokerServer\trunk\Venus3D\Builds\MobileSim\VC100\zziplib\zziplib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.85
